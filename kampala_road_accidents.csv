@@ -1,0 +1,501 @@
+accident_id,date,time,location,division,road_type,weather_condition,light_condition,traffic_density,vehicle_type,number_of_vehicles,driver_age,driver_gender,driver_experience_years,alcohol_influence,helmet_used,seatbelt_used,accident_severity,number_of_casualties,number_of_deaths,injury_type,latitude,longitude
+1,2023-04-22,23:02,Bwaise,Central,Highway,Rainy,Night,High,Truck,1,29,Female,1,No,Yes,No,Minor,0,2,Fracture,0.317971,32.514557
+2,2023-07-18,12:22,Rubaga,Kawempe,Urban,Rainy,Night,High,Bus,1,33,Female,9,No,Yes,Yes,Serious,4,0,Multiple,0.337489,32.526032
+3,2023-01-26,0:04,Rubaga,Nakawa,Urban,Rainy,Night,High,Boda Boda,2,46,Female,7,No,No,Yes,Minor,1,1,Multiple,0.365851,32.526295
+4,2023-12-15,18:55,Bwaise,Makindye,Highway,Clear,Night,Low,Truck,2,21,Male,1,Yes,No,No,Fatal,1,2,Multiple,0.371628,32.613228
+5,2023-09-28,13:47,Bwaise,Nakawa,Highway,Clear,Night,Low,Boda Boda,1,18,Female,2,No,No,No,Minor,0,2,,0.383251,32.600656
+6,2023-06-15,11:29,Kireka,Rubaga,Urban,Clear,Night,Medium,Boda Boda,1,24,Male,3,Yes,Yes,Yes,Minor,4,1,Multiple,0.292956,32.610349
+7,2023-07-25,13:27,Rubaga,Makindye,Urban,Rainy,Night,Low,Truck,2,57,Female,6,Yes,No,Yes,Serious,3,1,Multiple,0.379882,32.59817
+8,2023-03-06,18:39,Makindye,Nakawa,Urban,Clear,Night,High,Boda Boda,2,20,Female,5,No,No,No,Serious,0,1,Head Injury,0.366304,32.587521
+9,2023-05-28,10:03,Bwaise,Kawempe,Urban,Clear,Night,High,Boda Boda,3,29,Female,13,Yes,No,No,Fatal,4,0,,0.379174,32.507768
+10,2023-12-29,3:13,Kampala Road,Nakawa,Urban,Rainy,Daylight,Low,Car,1,32,Female,3,Yes,Yes,No,Fatal,2,1,Multiple,0.345573,32.535513
+11,2023-06-03,6:27,Bwaise,Makindye,Highway,Rainy,Night,High,Boda Boda,3,32,Female,5,No,No,Yes,Fatal,1,2,Multiple,0.337455,32.645346
+12,2023-10-15,2:12,Katwe,Kawempe,Highway,Rainy,Night,High,Truck,3,60,Male,10,Yes,Yes,No,Minor,2,2,Multiple,0.297692,32.507304
+13,2023-01-08,21:07,Kampala Road,Central,Highway,Clear,Night,High,Boda Boda,3,22,Female,16,No,Yes,Yes,Fatal,4,1,Multiple,0.356841,32.523316
+14,2023-10-09,13:58,Ntinda,Rubaga,Urban,Clear,Daylight,Medium,Truck,2,21,Male,6,No,No,Yes,Minor,0,2,Multiple,0.292029,32.635742
+15,2023-03-23,16:44,Kampala Road,Rubaga,Highway,Rainy,Daylight,Medium,Truck,3,50,Male,1,No,Yes,No,Minor,2,0,,0.351176,32.641545
+16,2023-08-27,12:11,Kireka,Rubaga,Highway,Clear,Night,High,Car,3,26,Male,2,No,Yes,Yes,Serious,3,1,Multiple,0.345668,32.580259
+17,2023-01-20,5:27,Rubaga,Nakawa,Urban,Rainy,Night,High,Truck,3,24,Female,16,No,No,No,Fatal,1,0,,0.320374,32.596019
+18,2023-11-16,13:27,Katwe,Rubaga,Urban,Clear,Night,High,Truck,2,18,Male,13,No,No,No,Minor,1,1,Fracture,0.311121,32.505236
+19,2023-06-23,20:52,Makindye,Central,Highway,Rainy,Night,Low,Bus,2,58,Female,13,No,No,No,Fatal,1,2,Multiple,0.298211,32.517199
+20,2023-08-17,1:01,Makindye,Central,Urban,Rainy,Daylight,Low,Car,1,57,Female,3,Yes,Yes,No,Serious,1,1,Fracture,0.362415,32.558453
+21,2023-08-22,4:37,Bwaise,Central,Urban,Clear,Daylight,Low,Boda Boda,1,22,Male,3,No,No,No,Serious,3,1,Head Injury,0.3613,32.529981
+22,2023-03-16,16:31,Rubaga,Kawempe,Urban,Clear,Night,Medium,Boda Boda,2,61,Female,11,No,Yes,Yes,Fatal,4,1,,0.328425,32.649374
+23,2023-08-06,4:33,Bwaise,Nakawa,Urban,Rainy,Night,High,Bus,1,24,Male,17,No,Yes,No,Serious,0,1,Head Injury,0.305149,32.53514
+24,2023-03-12,5:29,Rubaga,Central,Urban,Rainy,Night,Medium,Boda Boda,2,27,Male,13,No,Yes,Yes,Serious,1,2,,0.297939,32.508582
+25,2023-09-25,8:47,Rubaga,Central,Highway,Rainy,Daylight,High,Car,1,22,Male,19,No,No,No,Fatal,0,0,Multiple,0.322575,32.572118
+26,2023-06-14,8:31,Kireka,Makindye,Urban,Clear,Daylight,High,Bus,2,47,Male,5,Yes,No,No,Fatal,2,0,Fracture,0.336585,32.510728
+27,2023-04-07,11:00,Rubaga,Makindye,Highway,Rainy,Daylight,Low,Car,3,35,Male,12,Yes,Yes,No,Serious,2,1,Multiple,0.302178,32.503326
+28,2023-09-29,14:34,Kampala Road,Kawempe,Urban,Clear,Night,Low,Boda Boda,3,50,Male,4,Yes,Yes,Yes,Fatal,2,2,,0.330641,32.574547
+29,2023-07-21,15:09,Kireka,Makindye,Highway,Rainy,Night,Medium,Boda Boda,2,44,Male,11,No,Yes,Yes,Minor,0,1,Head Injury,0.295457,32.64461
+30,2023-10-01,23:11,Ntinda,Central,Highway,Rainy,Daylight,Low,Car,3,19,Female,2,No,No,Yes,Serious,3,1,Head Injury,0.384651,32.530773
+31,2023-02-19,13:14,Bwaise,Rubaga,Urban,Clear,Daylight,Medium,Boda Boda,3,40,Female,6,No,No,Yes,Fatal,3,2,Fracture,0.375118,32.513936
+32,2023-07-11,12:52,Bwaise,Makindye,Highway,Clear,Night,High,Car,1,40,Female,13,No,No,Yes,Fatal,3,0,Multiple,0.382031,32.605623
+33,2023-06-24,1:43,Kireka,Kawempe,Highway,Clear,Night,Low,Bus,2,63,Male,8,Yes,Yes,No,Serious,1,0,,0.336972,32.578812
+34,2023-07-05,12:52,Makindye,Central,Urban,Rainy,Night,Medium,Car,2,25,Female,17,No,Yes,No,Serious,3,2,Fracture,0.354177,32.538512
+35,2023-01-12,12:36,Kireka,Kawempe,Urban,Clear,Daylight,Low,Bus,2,29,Male,19,No,No,Yes,Fatal,1,1,Fracture,0.296416,32.624208
+36,2023-06-30,9:24,Ntinda,Kawempe,Highway,Rainy,Daylight,High,Bus,2,57,Male,10,Yes,No,No,Serious,3,1,Fracture,0.339517,32.598086
+37,2023-04-20,17:26,Rubaga,Kawempe,Highway,Clear,Daylight,High,Car,3,62,Male,10,Yes,Yes,Yes,Serious,3,2,Multiple,0.31259,32.615611
+38,2023-11-17,22:10,Rubaga,Kawempe,Urban,Clear,Night,High,Truck,1,69,Female,4,Yes,No,Yes,Serious,2,0,,0.349394,32.559559
+39,2023-01-12,10:34,Kampala Road,Central,Highway,Clear,Night,Low,Bus,2,36,Female,18,No,No,Yes,Minor,2,0,,0.349902,32.568282
+40,2023-02-03,19:30,Kampala Road,Rubaga,Highway,Rainy,Daylight,Low,Truck,3,24,Male,7,No,Yes,No,Serious,3,0,,0.371457,32.635977
+41,2023-11-04,15:51,Kireka,Central,Urban,Clear,Night,Low,Boda Boda,3,20,Female,4,Yes,No,Yes,Serious,3,1,,0.330904,32.551225
+42,2023-01-11,2:42,Bwaise,Makindye,Highway,Rainy,Daylight,Medium,Truck,2,64,Male,9,No,Yes,No,Minor,3,0,Head Injury,0.360326,32.524041
+43,2023-09-09,19:43,Makindye,Rubaga,Highway,Rainy,Night,Low,Bus,3,60,Female,12,Yes,Yes,Yes,Fatal,3,1,Fracture,0.327006,32.617124
+44,2023-06-20,19:33,Katwe,Central,Highway,Clear,Night,Medium,Truck,3,52,Female,7,No,No,No,Minor,1,0,Head Injury,0.367503,32.51787
+45,2023-02-10,13:39,Kampala Road,Kawempe,Highway,Rainy,Daylight,High,Truck,1,41,Male,12,No,Yes,Yes,Serious,0,2,Multiple,0.368606,32.627203
+46,2023-02-13,13:49,Bwaise,Rubaga,Highway,Rainy,Daylight,Medium,Truck,3,28,Male,12,Yes,Yes,Yes,Fatal,3,2,Head Injury,0.321,32.552765
+47,2023-05-18,4:14,Ntinda,Kawempe,Urban,Rainy,Daylight,Low,Truck,1,66,Male,4,Yes,No,No,Fatal,1,2,Fracture,0.366446,32.597193
+48,2023-04-09,0:50,Rubaga,Central,Highway,Clear,Daylight,Low,Boda Boda,3,32,Female,13,No,Yes,No,Serious,2,2,Head Injury,0.33978,32.635262
+49,2023-10-24,10:00,Kampala Road,Kawempe,Urban,Clear,Night,High,Boda Boda,2,61,Male,16,No,No,Yes,Fatal,2,0,,0.365951,32.55496
+50,2023-08-19,18:32,Ntinda,Rubaga,Urban,Rainy,Daylight,Low,Bus,2,23,Male,9,No,No,Yes,Serious,1,1,Head Injury,0.347181,32.520364
+51,2023-01-09,0:56,Makindye,Nakawa,Urban,Rainy,Night,High,Car,3,55,Female,4,No,Yes,No,Serious,1,1,Multiple,0.367422,32.571206
+52,2023-01-22,6:41,Bwaise,Makindye,Highway,Rainy,Night,High,Boda Boda,2,31,Female,8,Yes,Yes,No,Serious,1,2,Head Injury,0.327491,32.601354
+53,2023-11-07,1:32,Makindye,Nakawa,Urban,Clear,Daylight,Medium,Boda Boda,3,26,Male,19,Yes,Yes,Yes,Minor,4,2,,0.389124,32.575106
+54,2023-01-16,3:57,Ntinda,Nakawa,Urban,Clear,Daylight,High,Car,3,32,Male,16,Yes,No,No,Serious,3,2,Head Injury,0.368794,32.634556
+55,2023-09-01,11:52,Ntinda,Nakawa,Highway,Clear,Night,Low,Bus,1,38,Female,4,Yes,Yes,Yes,Serious,2,1,Head Injury,0.316471,32.570693
+56,2023-08-31,1:48,Katwe,Kawempe,Urban,Rainy,Night,Medium,Truck,1,22,Female,2,No,Yes,No,Serious,3,2,Head Injury,0.374452,32.620227
+57,2023-03-31,8:23,Ntinda,Central,Highway,Rainy,Daylight,High,Bus,3,20,Female,14,Yes,Yes,No,Fatal,1,1,Head Injury,0.313996,32.615451
+58,2023-12-02,17:23,Bwaise,Central,Highway,Rainy,Daylight,Medium,Boda Boda,3,20,Male,16,Yes,Yes,No,Fatal,1,2,,0.359682,32.550597
+59,2023-11-13,19:42,Rubaga,Kawempe,Highway,Rainy,Daylight,Medium,Truck,1,54,Female,18,No,No,Yes,Minor,4,1,,0.307328,32.530451
+60,2023-11-14,7:50,Makindye,Central,Highway,Clear,Night,Medium,Truck,3,47,Male,9,No,No,No,Fatal,2,0,,0.381028,32.553649
+61,2023-01-09,3:47,Makindye,Kawempe,Urban,Rainy,Daylight,High,Boda Boda,2,45,Male,6,No,Yes,Yes,Serious,3,2,Multiple,0.336136,32.594637
+62,2023-12-17,7:04,Makindye,Rubaga,Highway,Clear,Night,Medium,Bus,1,50,Male,6,Yes,No,No,Minor,2,1,,0.337997,32.63781
+63,2023-05-20,11:43,Kireka,Makindye,Highway,Rainy,Night,Low,Car,2,62,Male,1,No,No,Yes,Serious,0,2,,0.373276,32.501149
+64,2023-09-08,2:22,Kireka,Nakawa,Urban,Clear,Daylight,High,Boda Boda,3,20,Female,17,No,No,No,Minor,2,0,Fracture,0.293458,32.637599
+65,2023-12-31,17:10,Ntinda,Central,Urban,Rainy,Daylight,Low,Truck,3,18,Male,4,No,No,No,Serious,1,1,Fracture,0.34703,32.617053
+66,2023-01-18,14:00,Katwe,Rubaga,Urban,Rainy,Night,Medium,Bus,2,58,Male,2,No,Yes,No,Fatal,4,2,,0.376876,32.502775
+67,2023-02-18,11:38,Kireka,Rubaga,Urban,Rainy,Daylight,Medium,Truck,2,32,Female,19,Yes,Yes,No,Fatal,3,2,Fracture,0.295911,32.57244
+68,2023-06-27,20:55,Kireka,Makindye,Highway,Rainy,Night,High,Truck,2,23,Female,3,No,No,No,Serious,3,2,Multiple,0.315492,32.621682
+69,2023-10-06,19:07,Kireka,Makindye,Highway,Rainy,Night,Medium,Truck,2,43,Male,15,No,Yes,Yes,Fatal,0,0,Fracture,0.338731,32.523572
+70,2023-07-26,21:21,Bwaise,Kawempe,Urban,Rainy,Daylight,Medium,Boda Boda,3,43,Female,15,Yes,Yes,Yes,Fatal,1,0,Multiple,0.336748,32.55766
+71,2023-07-20,20:17,Kampala Road,Central,Highway,Clear,Night,Low,Truck,1,52,Male,8,Yes,No,Yes,Minor,4,1,Multiple,0.345271,32.60122
+72,2023-05-23,11:32,Katwe,Central,Highway,Clear,Night,Low,Boda Boda,1,69,Female,15,No,No,No,Minor,0,2,Multiple,0.291597,32.52233
+73,2023-09-14,1:23,Kireka,Rubaga,Highway,Rainy,Daylight,Low,Truck,2,27,Male,7,No,No,Yes,Minor,2,0,,0.31261,32.508636
+74,2023-02-17,3:27,Rubaga,Rubaga,Urban,Rainy,Daylight,High,Truck,2,24,Female,5,No,No,Yes,Serious,2,2,Head Injury,0.386465,32.621686
+75,2023-12-05,3:32,Katwe,Makindye,Highway,Rainy,Night,Low,Car,1,49,Female,19,Yes,Yes,No,Serious,0,2,Head Injury,0.297408,32.560164
+76,2023-11-19,5:53,Bwaise,Nakawa,Urban,Clear,Night,Medium,Boda Boda,3,54,Female,16,Yes,Yes,Yes,Minor,2,0,Head Injury,0.35346,32.613401
+77,2023-07-25,14:45,Kampala Road,Kawempe,Highway,Rainy,Night,High,Boda Boda,1,24,Female,12,No,No,Yes,Serious,1,2,Fracture,0.333064,32.565575
+78,2023-10-19,18:18,Kampala Road,Makindye,Urban,Clear,Daylight,Low,Bus,2,62,Male,9,No,Yes,Yes,Serious,1,1,Multiple,0.349152,32.588161
+79,2023-03-02,17:31,Kampala Road,Rubaga,Urban,Clear,Night,High,Bus,2,63,Female,11,Yes,No,No,Minor,2,2,Head Injury,0.291844,32.512295
+80,2023-05-12,3:14,Ntinda,Makindye,Highway,Rainy,Night,Medium,Truck,3,47,Female,6,No,No,No,Minor,2,0,,0.315092,32.520212
+81,2023-11-23,9:46,Katwe,Nakawa,Highway,Rainy,Daylight,High,Car,2,65,Male,15,No,Yes,No,Minor,4,1,Multiple,0.388017,32.604502
+82,2023-05-29,4:15,Bwaise,Makindye,Highway,Clear,Daylight,Low,Truck,2,30,Male,9,No,Yes,No,Minor,1,0,,0.371823,32.556676
+83,2023-05-18,23:57,Rubaga,Rubaga,Highway,Rainy,Night,Medium,Boda Boda,3,44,Male,11,No,Yes,Yes,Minor,1,2,Head Injury,0.361761,32.64643
+84,2023-11-18,4:33,Kampala Road,Central,Highway,Clear,Night,High,Boda Boda,2,44,Female,15,Yes,No,No,Minor,3,0,Multiple,0.291689,32.519702
+85,2023-03-06,17:28,Makindye,Nakawa,Urban,Clear,Daylight,Low,Bus,2,52,Female,11,No,No,No,Fatal,1,0,Fracture,0.371093,32.616284
+86,2023-11-19,12:16,Bwaise,Rubaga,Highway,Clear,Night,Low,Bus,3,57,Female,14,Yes,Yes,No,Serious,4,0,Multiple,0.370307,32.642095
+87,2023-05-31,9:16,Kampala Road,Nakawa,Highway,Rainy,Daylight,Medium,Car,1,61,Female,11,Yes,Yes,No,Minor,3,1,,0.344852,32.638307
+88,2023-05-13,15:01,Bwaise,Makindye,Highway,Rainy,Daylight,Medium,Car,3,40,Male,1,Yes,No,No,Fatal,1,0,,0.304404,32.546126
+89,2023-05-24,10:10,Kampala Road,Central,Urban,Clear,Daylight,Low,Car,2,63,Male,13,No,Yes,No,Minor,2,1,Multiple,0.312235,32.579264
+90,2023-03-02,4:39,Makindye,Rubaga,Urban,Clear,Daylight,Medium,Truck,1,22,Male,18,No,Yes,No,Fatal,4,2,Fracture,0.299213,32.649707
+91,2023-12-08,12:37,Rubaga,Rubaga,Urban,Clear,Night,Medium,Bus,1,47,Female,2,No,No,No,Serious,1,2,Fracture,0.320817,32.599904
+92,2023-05-24,22:29,Makindye,Makindye,Highway,Clear,Daylight,Medium,Truck,3,37,Male,5,No,No,Yes,Serious,2,0,,0.335946,32.553149
+93,2023-08-25,13:46,Bwaise,Makindye,Urban,Clear,Night,Low,Boda Boda,2,37,Female,7,No,No,No,Minor,4,2,Head Injury,0.333573,32.547434
+94,2023-06-27,14:54,Katwe,Kawempe,Urban,Rainy,Daylight,High,Boda Boda,3,53,Male,7,No,No,Yes,Serious,1,1,Head Injury,0.348096,32.547048
+95,2023-03-08,2:36,Bwaise,Kawempe,Highway,Clear,Night,Medium,Car,3,38,Female,11,Yes,No,Yes,Fatal,1,0,Head Injury,0.311703,32.636533
+96,2023-07-04,21:13,Bwaise,Rubaga,Highway,Clear,Night,High,Truck,3,56,Female,9,No,No,No,Minor,3,1,Multiple,0.357346,32.532259
+97,2023-07-25,8:19,Rubaga,Central,Urban,Clear,Night,Low,Boda Boda,1,40,Male,9,Yes,No,No,Fatal,1,1,Fracture,0.343956,32.503054
+98,2023-11-21,17:55,Makindye,Kawempe,Urban,Rainy,Night,Low,Boda Boda,3,41,Male,6,No,Yes,No,Serious,4,1,Fracture,0.312621,32.54812
+99,2023-03-21,14:25,Makindye,Makindye,Highway,Clear,Daylight,High,Boda Boda,2,23,Male,8,No,Yes,Yes,Minor,2,2,Head Injury,0.317745,32.559685
+100,2023-01-02,6:46,Katwe,Kawempe,Urban,Rainy,Daylight,Medium,Bus,2,21,Male,19,No,Yes,Yes,Minor,4,1,,0.316735,32.606731
+101,2023-10-17,0:15,Makindye,Central,Highway,Clear,Night,Medium,Bus,2,20,Male,1,No,Yes,No,Fatal,0,0,Fracture,0.297829,32.542067
+102,2023-07-20,6:35,Makindye,Central,Urban,Clear,Night,Medium,Bus,2,44,Female,12,Yes,No,Yes,Serious,1,1,Head Injury,0.305347,32.580033
+103,2023-07-17,12:49,Bwaise,Makindye,Urban,Rainy,Daylight,High,Boda Boda,1,29,Female,17,No,No,Yes,Minor,3,1,Head Injury,0.363553,32.531659
+104,2023-04-02,1:12,Katwe,Central,Urban,Rainy,Daylight,High,Car,1,66,Male,2,Yes,No,No,Minor,2,0,Fracture,0.295054,32.537624
+105,2023-01-23,11:29,Kireka,Makindye,Urban,Clear,Night,High,Boda Boda,3,63,Male,14,Yes,No,Yes,Serious,2,0,Fracture,0.323997,32.621937
+106,2023-07-20,15:00,Bwaise,Nakawa,Urban,Rainy,Night,High,Bus,1,27,Male,16,Yes,Yes,No,Minor,4,1,Head Injury,0.387755,32.64186
+107,2023-12-10,11:03,Katwe,Rubaga,Urban,Clear,Daylight,Low,Truck,2,46,Male,4,Yes,Yes,Yes,Serious,3,2,Fracture,0.301404,32.572224
+108,2023-07-30,17:30,Makindye,Central,Highway,Rainy,Daylight,Medium,Truck,1,20,Female,3,No,No,Yes,Fatal,2,0,Head Injury,0.369729,32.522513
+109,2023-04-25,6:55,Kireka,Nakawa,Urban,Rainy,Daylight,High,Bus,1,24,Male,12,No,Yes,Yes,Serious,3,2,Multiple,0.290506,32.636692
+110,2023-07-02,14:58,Kireka,Kawempe,Urban,Clear,Daylight,High,Truck,2,32,Female,17,Yes,Yes,Yes,Minor,2,2,Head Injury,0.331468,32.5493
+111,2023-01-28,4:08,Ntinda,Nakawa,Highway,Clear,Daylight,Low,Car,1,42,Male,3,No,No,Yes,Fatal,3,1,,0.354677,32.646387
+112,2023-07-14,7:56,Kampala Road,Central,Urban,Rainy,Night,Low,Truck,1,37,Female,5,No,Yes,No,Minor,4,2,Fracture,0.300035,32.586695
+113,2023-02-21,23:39,Kireka,Rubaga,Urban,Rainy,Daylight,Medium,Boda Boda,2,50,Female,17,Yes,No,Yes,Minor,4,2,Fracture,0.355424,32.614202
+114,2023-03-27,1:36,Kireka,Makindye,Urban,Clear,Daylight,High,Car,3,58,Male,10,No,No,Yes,Fatal,3,1,Head Injury,0.31292,32.623775
+115,2023-08-02,13:24,Katwe,Kawempe,Highway,Rainy,Daylight,Medium,Car,1,26,Female,10,No,No,Yes,Serious,0,1,Multiple,0.315991,32.583746
+116,2023-06-27,15:10,Kireka,Makindye,Urban,Clear,Night,Low,Car,3,55,Male,17,No,No,No,Minor,4,2,Fracture,0.347631,32.648963
+117,2023-11-26,5:09,Katwe,Nakawa,Urban,Clear,Night,Low,Bus,3,64,Female,14,Yes,No,No,Fatal,4,1,Head Injury,0.33392,32.537528
+118,2023-07-12,8:25,Bwaise,Nakawa,Highway,Clear,Daylight,Medium,Truck,2,26,Male,15,No,Yes,Yes,Serious,1,0,Head Injury,0.301297,32.625185
+119,2023-09-21,20:53,Bwaise,Central,Urban,Clear,Daylight,Low,Bus,1,18,Male,16,No,Yes,No,Minor,4,1,,0.318507,32.600356
+120,2023-02-19,23:04,Kampala Road,Makindye,Urban,Rainy,Night,Medium,Boda Boda,3,25,Male,8,Yes,Yes,No,Minor,2,0,Fracture,0.378311,32.641012
+121,2023-08-22,5:57,Kireka,Kawempe,Urban,Rainy,Daylight,High,Boda Boda,3,36,Male,7,No,No,Yes,Fatal,4,1,Multiple,0.369136,32.605122
+122,2023-09-13,9:01,Kampala Road,Kawempe,Highway,Clear,Night,Medium,Bus,1,68,Female,18,No,Yes,No,Minor,4,0,Fracture,0.384263,32.519767
+123,2023-12-08,3:02,Ntinda,Makindye,Urban,Rainy,Daylight,Low,Car,1,59,Male,2,Yes,Yes,Yes,Minor,4,0,Fracture,0.358348,32.594626
+124,2023-12-24,9:08,Kampala Road,Makindye,Urban,Clear,Daylight,Medium,Boda Boda,1,62,Female,14,No,No,No,Serious,2,0,Head Injury,0.326633,32.591975
+125,2023-05-04,14:35,Kampala Road,Kawempe,Highway,Rainy,Daylight,Low,Bus,3,55,Male,9,No,Yes,Yes,Serious,3,1,,0.354422,32.535991
+126,2023-05-23,10:12,Makindye,Rubaga,Urban,Rainy,Daylight,Medium,Car,1,28,Female,19,Yes,Yes,No,Fatal,3,2,,0.376819,32.575164
+127,2023-09-07,22:04,Ntinda,Central,Urban,Clear,Night,Medium,Boda Boda,3,39,Male,16,Yes,No,Yes,Minor,0,1,,0.382988,32.558773
+128,2023-03-30,8:31,Rubaga,Kawempe,Highway,Clear,Night,High,Truck,2,37,Male,3,Yes,Yes,Yes,Minor,1,0,Head Injury,0.320801,32.566458
+129,2023-09-08,10:05,Kireka,Nakawa,Highway,Clear,Daylight,Medium,Car,1,65,Male,3,No,Yes,No,Serious,0,0,Fracture,0.331123,32.548148
+130,2023-06-11,16:44,Kampala Road,Makindye,Highway,Rainy,Daylight,Medium,Car,3,47,Female,12,No,Yes,No,Serious,3,0,Multiple,0.379704,32.628566
+131,2023-04-30,17:57,Rubaga,Nakawa,Highway,Rainy,Daylight,High,Boda Boda,1,23,Female,9,No,No,Yes,Minor,0,0,,0.328541,32.646358
+132,2023-01-14,13:33,Rubaga,Rubaga,Highway,Clear,Daylight,Medium,Truck,2,34,Female,19,Yes,No,No,Serious,1,1,Multiple,0.351405,32.643675
+133,2023-04-05,21:34,Kampala Road,Rubaga,Highway,Rainy,Daylight,Low,Boda Boda,2,44,Female,18,Yes,Yes,No,Serious,2,2,Multiple,0.310704,32.549091
+134,2023-05-25,14:32,Katwe,Central,Urban,Clear,Daylight,Medium,Car,1,46,Male,1,Yes,No,No,Serious,0,2,Fracture,0.367206,32.521858
+135,2023-04-10,5:27,Makindye,Kawempe,Highway,Clear,Daylight,High,Boda Boda,3,38,Female,5,No,No,Yes,Serious,3,0,Fracture,0.364947,32.609456
+136,2023-11-18,13:59,Makindye,Kawempe,Highway,Clear,Daylight,High,Bus,2,48,Female,11,No,No,Yes,Minor,1,2,Fracture,0.339279,32.5718
+137,2023-03-03,7:03,Kampala Road,Central,Highway,Clear,Night,Low,Boda Boda,2,26,Female,7,No,No,Yes,Serious,4,2,Multiple,0.29098,32.62325
+138,2023-05-20,9:15,Rubaga,Rubaga,Urban,Clear,Daylight,Medium,Boda Boda,3,69,Female,19,No,No,No,Serious,2,2,Multiple,0.338325,32.570102
+139,2023-05-30,2:56,Katwe,Rubaga,Highway,Clear,Night,Low,Boda Boda,2,35,Male,7,Yes,Yes,Yes,Fatal,3,2,Head Injury,0.294793,32.590069
+140,2023-10-10,17:10,Katwe,Rubaga,Urban,Clear,Night,High,Bus,3,65,Female,12,Yes,Yes,No,Minor,4,1,,0.302814,32.645058
+141,2023-10-28,17:13,Kireka,Makindye,Urban,Rainy,Night,Low,Bus,1,66,Male,17,Yes,No,Yes,Minor,0,2,Head Injury,0.330313,32.534485
+142,2023-01-29,11:53,Makindye,Nakawa,Urban,Rainy,Night,High,Car,1,36,Female,2,No,No,Yes,Serious,3,2,Multiple,0.324378,32.520675
+143,2023-11-08,6:04,Makindye,Rubaga,Highway,Rainy,Daylight,Medium,Bus,1,41,Male,7,No,Yes,No,Fatal,4,2,,0.299836,32.581338
+144,2023-03-16,16:35,Kireka,Makindye,Urban,Rainy,Night,Medium,Car,3,64,Male,4,Yes,Yes,Yes,Serious,2,1,,0.294604,32.552267
+145,2023-06-08,10:25,Kireka,Central,Urban,Clear,Daylight,Low,Truck,1,64,Male,11,Yes,Yes,No,Fatal,4,2,,0.315835,32.526152
+146,2023-04-23,15:55,Rubaga,Rubaga,Urban,Rainy,Daylight,Low,Boda Boda,1,57,Female,10,Yes,Yes,Yes,Fatal,3,2,Multiple,0.308898,32.627269
+147,2023-05-09,20:59,Kireka,Nakawa,Highway,Rainy,Night,High,Bus,2,19,Male,17,Yes,Yes,No,Serious,3,0,,0.363442,32.59302
+148,2023-12-05,6:08,Bwaise,Rubaga,Highway,Clear,Night,Low,Car,1,18,Male,18,No,Yes,No,Serious,0,0,Multiple,0.348556,32.521051
+149,2023-07-19,4:30,Bwaise,Nakawa,Urban,Clear,Daylight,Medium,Bus,2,26,Male,2,No,No,Yes,Serious,0,0,Fracture,0.35164,32.553951
+150,2023-01-11,0:52,Rubaga,Central,Highway,Clear,Daylight,High,Car,1,52,Male,12,No,Yes,No,Serious,1,0,Fracture,0.32806,32.553959
+151,2023-04-27,17:15,Rubaga,Nakawa,Urban,Clear,Night,Medium,Boda Boda,1,29,Female,15,No,Yes,Yes,Serious,3,1,,0.300557,32.513985
+152,2023-11-14,19:02,Bwaise,Rubaga,Highway,Rainy,Daylight,High,Boda Boda,3,57,Male,5,No,Yes,No,Serious,1,2,Head Injury,0.379473,32.637139
+153,2023-04-15,1:52,Katwe,Rubaga,Highway,Rainy,Daylight,High,Bus,3,49,Female,7,Yes,No,Yes,Serious,0,1,,0.321958,32.63731
+154,2023-08-01,15:27,Makindye,Rubaga,Highway,Rainy,Daylight,Low,Bus,2,46,Female,19,Yes,No,Yes,Minor,4,2,Head Injury,0.367345,32.538086
+155,2023-11-29,8:44,Kireka,Nakawa,Highway,Clear,Daylight,Low,Truck,3,50,Female,14,No,Yes,No,Fatal,3,2,Fracture,0.354744,32.538498
+156,2023-10-13,8:43,Ntinda,Makindye,Highway,Clear,Night,Low,Bus,3,53,Female,4,No,No,No,Serious,1,0,Multiple,0.299531,32.537423
+157,2023-08-10,22:02,Ntinda,Central,Highway,Clear,Daylight,Medium,Bus,1,49,Male,14,No,No,No,Serious,1,1,Multiple,0.338879,32.607509
+158,2023-01-28,12:12,Ntinda,Rubaga,Highway,Clear,Daylight,High,Car,3,32,Male,18,Yes,Yes,No,Serious,0,0,Head Injury,0.336886,32.561289
+159,2023-06-18,3:19,Ntinda,Makindye,Urban,Rainy,Daylight,Medium,Boda Boda,2,31,Male,1,Yes,No,Yes,Fatal,2,1,Fracture,0.326574,32.622363
+160,2023-10-28,23:13,Katwe,Nakawa,Urban,Rainy,Daylight,Low,Bus,3,60,Male,9,No,No,Yes,Fatal,0,2,Fracture,0.312601,32.600882
+161,2023-02-03,13:09,Bwaise,Makindye,Urban,Rainy,Daylight,High,Truck,1,18,Female,7,Yes,Yes,Yes,Fatal,4,2,Head Injury,0.346928,32.593128
+162,2023-04-28,14:39,Kampala Road,Central,Highway,Clear,Daylight,Low,Truck,3,29,Female,16,Yes,No,Yes,Fatal,1,0,Multiple,0.371128,32.563166
+163,2023-03-22,6:15,Rubaga,Central,Highway,Rainy,Daylight,Low,Car,3,22,Female,2,Yes,No,No,Fatal,3,2,Head Injury,0.324068,32.64198
+164,2023-05-15,17:40,Bwaise,Rubaga,Urban,Clear,Daylight,High,Bus,1,43,Male,10,Yes,Yes,No,Serious,1,1,Multiple,0.387636,32.638654
+165,2023-07-02,0:15,Ntinda,Rubaga,Urban,Rainy,Night,Low,Boda Boda,1,55,Female,11,Yes,Yes,No,Fatal,0,0,Head Injury,0.353245,32.530879
+166,2023-12-03,23:26,Makindye,Nakawa,Highway,Clear,Night,Low,Car,1,54,Female,18,Yes,Yes,Yes,Minor,4,2,Fracture,0.312644,32.515103
+167,2023-10-26,14:43,Kampala Road,Rubaga,Highway,Clear,Daylight,Medium,Bus,2,63,Female,1,No,Yes,No,Minor,1,0,Fracture,0.360392,32.57332
+168,2023-10-10,18:56,Rubaga,Makindye,Highway,Rainy,Daylight,High,Car,2,34,Male,1,No,Yes,No,Serious,1,0,,0.321236,32.547038
+169,2023-08-21,0:17,Kampala Road,Rubaga,Urban,Rainy,Daylight,High,Boda Boda,1,34,Female,18,Yes,Yes,Yes,Minor,0,0,Multiple,0.385254,32.587513
+170,2023-06-02,21:03,Kampala Road,Rubaga,Urban,Rainy,Night,Medium,Bus,2,67,Male,17,Yes,No,Yes,Minor,3,1,,0.320142,32.524826
+171,2023-07-20,18:18,Makindye,Kawempe,Urban,Rainy,Daylight,Low,Bus,2,42,Female,1,No,Yes,No,Serious,1,2,Multiple,0.317681,32.550199
+172,2023-05-21,18:50,Ntinda,Makindye,Urban,Rainy,Night,High,Truck,2,20,Female,6,No,Yes,Yes,Minor,1,1,,0.318735,32.522316
+173,2023-12-28,22:12,Katwe,Rubaga,Urban,Clear,Night,Low,Boda Boda,1,56,Female,15,Yes,Yes,Yes,Minor,1,2,Fracture,0.331574,32.521125
+174,2023-03-13,14:23,Kireka,Rubaga,Highway,Clear,Daylight,Low,Truck,3,49,Male,2,Yes,No,No,Minor,4,2,Fracture,0.36641,32.526609
+175,2023-05-31,1:31,Makindye,Rubaga,Highway,Rainy,Daylight,Medium,Bus,2,49,Male,19,Yes,Yes,No,Fatal,3,1,Multiple,0.359881,32.584234
+176,2023-05-27,14:52,Ntinda,Nakawa,Urban,Clear,Daylight,High,Truck,1,32,Female,16,No,Yes,Yes,Minor,1,0,Head Injury,0.313145,32.62762
+177,2023-03-12,3:02,Bwaise,Kawempe,Urban,Rainy,Daylight,Low,Truck,3,61,Female,8,Yes,No,No,Fatal,4,2,,0.295311,32.540716
+178,2023-05-25,9:45,Kireka,Rubaga,Urban,Clear,Daylight,Medium,Boda Boda,3,56,Female,16,Yes,Yes,No,Fatal,2,1,Head Injury,0.329561,32.627001
+179,2023-05-07,4:02,Bwaise,Nakawa,Urban,Clear,Daylight,Low,Car,2,56,Male,12,No,No,Yes,Minor,4,2,Head Injury,0.365204,32.50728
+180,2023-04-13,11:34,Bwaise,Makindye,Highway,Clear,Night,Low,Car,2,34,Male,1,No,Yes,No,Minor,1,0,Head Injury,0.329152,32.616542
+181,2023-02-28,20:21,Kireka,Nakawa,Urban,Rainy,Daylight,Low,Bus,2,37,Male,1,Yes,No,Yes,Serious,2,2,Head Injury,0.354542,32.641423
+182,2023-09-14,20:07,Kireka,Rubaga,Urban,Rainy,Night,Medium,Car,3,30,Female,17,Yes,No,No,Serious,1,2,,0.380025,32.545125
+183,2023-11-03,15:56,Rubaga,Kawempe,Highway,Rainy,Night,High,Car,2,50,Male,1,No,Yes,Yes,Fatal,4,1,Fracture,0.363334,32.626825
+184,2023-01-26,18:51,Makindye,Central,Urban,Rainy,Daylight,Low,Boda Boda,1,28,Male,4,Yes,No,No,Serious,0,1,,0.371808,32.517824
+185,2023-12-01,4:36,Makindye,Kawempe,Highway,Clear,Daylight,High,Bus,3,63,Male,10,Yes,No,No,Minor,3,2,Fracture,0.341069,32.588968
+186,2023-12-31,1:22,Katwe,Makindye,Highway,Clear,Daylight,Medium,Boda Boda,3,62,Female,5,Yes,Yes,No,Minor,1,1,,0.358396,32.523772
+187,2023-08-18,0:58,Kampala Road,Rubaga,Urban,Rainy,Daylight,Medium,Bus,2,38,Male,16,Yes,Yes,Yes,Minor,3,0,Fracture,0.299812,32.572298
+188,2023-12-16,11:09,Kampala Road,Nakawa,Highway,Rainy,Night,High,Truck,1,60,Female,12,No,No,Yes,Serious,4,1,,0.350989,32.520925
+189,2023-03-01,7:15,Bwaise,Rubaga,Highway,Clear,Night,Medium,Bus,2,52,Male,9,Yes,Yes,No,Minor,2,0,Head Injury,0.321089,32.564661
+190,2023-01-10,7:17,Ntinda,Central,Highway,Rainy,Night,Low,Car,2,41,Male,5,Yes,No,No,Fatal,1,1,Head Injury,0.309449,32.592482
+191,2023-08-30,19:33,Kireka,Kawempe,Highway,Clear,Night,High,Car,3,59,Female,7,No,Yes,No,Minor,0,0,Fracture,0.389318,32.639575
+192,2023-10-23,7:21,Makindye,Rubaga,Urban,Clear,Daylight,Low,Boda Boda,3,58,Female,5,No,Yes,No,Minor,3,0,Fracture,0.335195,32.508219
+193,2023-04-06,16:13,Kireka,Makindye,Highway,Clear,Night,High,Car,1,40,Female,18,No,Yes,No,Minor,3,0,Fracture,0.362328,32.614299
+194,2023-05-02,10:39,Kampala Road,Kawempe,Urban,Rainy,Night,Low,Truck,2,34,Female,8,No,Yes,Yes,Minor,1,1,Head Injury,0.336964,32.565601
+195,2023-05-10,10:00,Makindye,Nakawa,Highway,Clear,Night,Medium,Car,1,48,Female,2,No,Yes,No,Minor,4,0,Head Injury,0.376536,32.578404
+196,2023-05-16,19:25,Makindye,Kawempe,Highway,Clear,Night,Low,Car,2,59,Male,9,Yes,Yes,No,Minor,0,2,Fracture,0.355244,32.617586
+197,2023-01-09,13:00,Kireka,Nakawa,Highway,Clear,Night,Medium,Car,1,19,Male,17,Yes,No,No,Minor,1,0,,0.320295,32.64208
+198,2023-07-15,0:10,Makindye,Nakawa,Highway,Clear,Night,High,Car,1,25,Male,18,No,Yes,No,Minor,4,0,Fracture,0.324395,32.524128
+199,2023-07-22,3:53,Rubaga,Kawempe,Urban,Clear,Night,Medium,Boda Boda,2,25,Male,5,No,Yes,No,Fatal,3,2,Fracture,0.302824,32.510055
+200,2023-03-17,3:53,Kireka,Makindye,Urban,Clear,Night,High,Bus,1,23,Male,16,Yes,Yes,Yes,Minor,4,1,Head Injury,0.305869,32.580568
+201,2023-03-04,19:01,Kireka,Makindye,Highway,Rainy,Night,High,Boda Boda,3,47,Female,14,Yes,No,Yes,Minor,0,1,Multiple,0.374077,32.538153
+202,2023-08-13,21:35,Kampala Road,Rubaga,Urban,Clear,Night,Low,Bus,1,54,Female,16,Yes,No,No,Minor,1,0,Fracture,0.385392,32.606758
+203,2023-12-27,1:36,Katwe,Rubaga,Highway,Clear,Night,Medium,Car,3,62,Female,14,Yes,No,Yes,Fatal,2,2,Head Injury,0.361827,32.642627
+204,2023-12-23,5:45,Makindye,Nakawa,Highway,Clear,Daylight,High,Truck,1,40,Male,13,Yes,No,Yes,Minor,2,2,Head Injury,0.332773,32.580707
+205,2023-09-24,5:04,Kampala Road,Makindye,Urban,Clear,Daylight,Low,Boda Boda,2,26,Male,3,Yes,Yes,Yes,Fatal,3,0,Fracture,0.309585,32.611471
+206,2023-05-09,12:21,Kireka,Rubaga,Highway,Clear,Daylight,High,Boda Boda,3,28,Female,15,No,No,Yes,Minor,2,2,Multiple,0.332463,32.549099
+207,2023-08-04,0:44,Katwe,Makindye,Urban,Clear,Daylight,Medium,Boda Boda,1,51,Female,8,Yes,No,Yes,Fatal,2,1,,0.348015,32.58244
+208,2023-09-06,14:27,Katwe,Kawempe,Highway,Rainy,Daylight,High,Bus,3,43,Female,1,Yes,Yes,Yes,Minor,2,1,Head Injury,0.317784,32.621735
+209,2023-03-28,7:31,Kireka,Kawempe,Urban,Rainy,Daylight,Low,Car,2,61,Female,3,No,Yes,No,Fatal,1,1,Multiple,0.295998,32.549651
+210,2023-06-28,9:05,Kireka,Makindye,Highway,Rainy,Night,Low,Truck,1,38,Male,4,Yes,No,Yes,Minor,0,0,Multiple,0.348682,32.570263
+211,2023-04-05,2:32,Bwaise,Nakawa,Urban,Clear,Daylight,High,Bus,2,51,Female,1,Yes,No,No,Serious,0,0,Head Injury,0.358615,32.572108
+212,2023-02-26,6:30,Rubaga,Central,Urban,Rainy,Daylight,High,Car,1,46,Female,4,No,Yes,Yes,Serious,0,1,Head Injury,0.367444,32.500459
+213,2023-12-19,18:46,Ntinda,Kawempe,Urban,Clear,Night,Low,Car,1,25,Male,6,No,No,No,Serious,4,2,,0.310997,32.538526
+214,2023-05-27,0:34,Kampala Road,Rubaga,Urban,Clear,Daylight,Medium,Truck,3,33,Male,9,Yes,No,No,Fatal,4,2,,0.303037,32.644729
+215,2023-12-12,22:25,Makindye,Central,Urban,Clear,Night,High,Bus,3,37,Male,6,No,No,Yes,Serious,0,0,Head Injury,0.330907,32.590977
+216,2023-03-27,0:29,Kireka,Kawempe,Urban,Clear,Night,High,Truck,1,57,Female,13,Yes,Yes,Yes,Serious,3,0,Fracture,0.35146,32.527893
+217,2023-01-19,23:37,Rubaga,Nakawa,Highway,Rainy,Daylight,Medium,Car,2,22,Male,18,Yes,Yes,No,Fatal,4,0,,0.363186,32.639819
+218,2023-07-26,3:04,Kampala Road,Kawempe,Highway,Clear,Daylight,Medium,Truck,1,40,Female,6,Yes,No,Yes,Serious,0,0,Head Injury,0.386499,32.599324
+219,2023-08-22,8:18,Bwaise,Rubaga,Highway,Clear,Daylight,Low,Car,1,38,Female,13,Yes,Yes,No,Minor,0,2,Multiple,0.333971,32.596692
+220,2023-06-28,12:25,Ntinda,Rubaga,Highway,Clear,Daylight,Low,Bus,2,36,Female,15,Yes,No,Yes,Minor,4,0,,0.342493,32.642865
+221,2023-10-31,8:55,Bwaise,Kawempe,Urban,Rainy,Night,Medium,Boda Boda,1,20,Female,4,Yes,Yes,Yes,Serious,0,0,Fracture,0.316221,32.620337
+222,2023-02-17,22:25,Kampala Road,Makindye,Highway,Rainy,Night,Medium,Bus,2,18,Male,1,Yes,No,No,Fatal,1,0,Head Injury,0.386473,32.608425
+223,2023-10-25,12:36,Katwe,Rubaga,Urban,Clear,Daylight,Low,Boda Boda,3,30,Female,18,No,Yes,No,Serious,0,0,,0.368545,32.541203
+224,2023-03-01,12:09,Bwaise,Central,Urban,Rainy,Night,High,Bus,2,20,Male,19,Yes,No,No,Minor,1,0,Head Injury,0.329069,32.527115
+225,2023-09-21,0:50,Rubaga,Central,Urban,Clear,Night,High,Truck,3,42,Male,2,Yes,Yes,Yes,Minor,3,0,,0.3721,32.649332
+226,2023-06-12,11:42,Makindye,Nakawa,Urban,Clear,Night,Medium,Boda Boda,3,64,Male,16,Yes,Yes,Yes,Fatal,1,2,Fracture,0.343381,32.51032
+227,2023-07-29,5:40,Makindye,Kawempe,Urban,Clear,Daylight,High,Boda Boda,3,66,Male,5,Yes,Yes,No,Minor,0,2,Head Injury,0.339841,32.5049
+228,2023-06-11,3:12,Bwaise,Kawempe,Highway,Rainy,Daylight,High,Truck,2,34,Male,8,No,Yes,Yes,Serious,3,2,Head Injury,0.377249,32.648819
+229,2023-08-01,19:17,Ntinda,Makindye,Urban,Clear,Night,High,Bus,3,37,Female,10,No,No,No,Serious,2,0,Head Injury,0.303424,32.648153
+230,2023-05-11,6:08,Kireka,Makindye,Urban,Rainy,Night,Low,Truck,3,22,Female,14,Yes,Yes,No,Serious,4,2,Head Injury,0.348226,32.628777
+231,2023-03-25,10:34,Makindye,Nakawa,Highway,Rainy,Daylight,Low,Car,3,63,Male,18,Yes,No,No,Serious,3,0,Head Injury,0.322927,32.620949
+232,2023-02-23,7:52,Kampala Road,Rubaga,Urban,Rainy,Night,Low,Bus,1,68,Female,9,Yes,Yes,Yes,Minor,4,2,,0.376843,32.516341
+233,2023-12-28,2:04,Bwaise,Nakawa,Highway,Rainy,Night,Medium,Boda Boda,3,21,Male,10,Yes,Yes,No,Minor,2,2,,0.312271,32.564033
+234,2023-06-18,1:26,Makindye,Makindye,Highway,Rainy,Daylight,High,Car,1,51,Female,15,Yes,Yes,Yes,Minor,2,2,,0.378845,32.628117
+235,2023-04-27,7:36,Ntinda,Makindye,Urban,Rainy,Night,Low,Truck,1,55,Female,16,No,Yes,Yes,Serious,2,1,,0.345497,32.520857
+236,2023-09-12,18:39,Bwaise,Makindye,Highway,Clear,Night,Medium,Bus,1,43,Male,10,No,No,Yes,Serious,3,1,,0.369987,32.542316
+237,2023-01-21,15:02,Ntinda,Central,Urban,Clear,Night,Medium,Bus,1,55,Male,10,No,No,Yes,Fatal,1,0,Multiple,0.336313,32.515324
+238,2023-10-29,18:40,Katwe,Central,Highway,Clear,Daylight,Medium,Truck,2,38,Female,1,No,Yes,No,Minor,3,2,Head Injury,0.358738,32.607493
+239,2023-06-19,12:44,Ntinda,Nakawa,Urban,Clear,Daylight,Medium,Bus,3,53,Male,11,No,Yes,Yes,Fatal,0,0,Fracture,0.364485,32.603299
+240,2023-10-10,18:16,Kampala Road,Makindye,Urban,Rainy,Night,Low,Truck,1,21,Female,12,Yes,No,No,Serious,0,0,,0.307556,32.518263
+241,2023-08-09,3:55,Makindye,Makindye,Urban,Clear,Daylight,Low,Truck,1,37,Male,19,Yes,Yes,Yes,Fatal,0,2,,0.309848,32.540084
+242,2023-04-28,11:49,Kireka,Rubaga,Highway,Clear,Daylight,Medium,Car,1,67,Female,1,No,Yes,Yes,Fatal,2,2,,0.342418,32.50469
+243,2023-05-15,17:58,Katwe,Central,Urban,Rainy,Daylight,Low,Boda Boda,1,24,Female,18,Yes,Yes,No,Minor,0,0,Multiple,0.361205,32.635903
+244,2023-01-29,14:56,Kampala Road,Nakawa,Highway,Clear,Night,Low,Bus,2,63,Male,9,No,No,No,Fatal,4,2,Head Injury,0.316557,32.577613
+245,2023-12-13,12:08,Kireka,Central,Urban,Clear,Night,Low,Car,3,33,Male,7,No,Yes,Yes,Fatal,2,0,Head Injury,0.30755,32.523004
+246,2023-02-09,3:46,Makindye,Central,Urban,Rainy,Daylight,Medium,Truck,2,43,Female,18,Yes,Yes,Yes,Fatal,0,1,Fracture,0.29523,32.523069
+247,2023-11-01,10:35,Kampala Road,Makindye,Highway,Rainy,Daylight,High,Boda Boda,1,55,Male,17,Yes,No,Yes,Serious,0,1,Multiple,0.336823,32.555063
+248,2023-04-27,19:13,Ntinda,Central,Highway,Clear,Night,High,Truck,3,52,Female,18,Yes,Yes,No,Fatal,4,0,Fracture,0.320328,32.560023
+249,2023-08-18,14:30,Kireka,Rubaga,Highway,Clear,Daylight,Medium,Car,2,43,Male,8,No,No,Yes,Minor,1,0,Head Injury,0.321936,32.581157
+250,2023-10-02,23:15,Rubaga,Makindye,Highway,Rainy,Daylight,Low,Boda Boda,2,49,Male,18,No,No,No,Fatal,3,2,Head Injury,0.383618,32.619413
+251,2023-02-03,15:09,Kampala Road,Central,Highway,Clear,Daylight,Low,Boda Boda,3,69,Female,2,No,Yes,Yes,Minor,3,2,Fracture,0.38574,32.637142
+252,2023-07-06,10:20,Makindye,Central,Highway,Clear,Daylight,Medium,Truck,3,42,Female,1,Yes,No,Yes,Serious,0,0,Fracture,0.338197,32.563893
+253,2023-12-17,5:08,Kireka,Kawempe,Urban,Rainy,Daylight,High,Boda Boda,1,20,Male,1,Yes,Yes,No,Serious,0,2,,0.343894,32.542194
+254,2023-06-21,15:59,Rubaga,Nakawa,Urban,Clear,Daylight,Medium,Car,2,69,Male,15,No,No,Yes,Minor,1,0,Multiple,0.329358,32.590916
+255,2023-03-24,7:38,Kireka,Makindye,Highway,Clear,Night,Low,Bus,1,59,Male,7,Yes,No,No,Serious,3,0,,0.330591,32.563915
+256,2023-12-17,22:49,Rubaga,Makindye,Urban,Rainy,Daylight,Low,Truck,3,65,Female,6,Yes,Yes,Yes,Minor,0,0,Fracture,0.305996,32.557489
+257,2023-02-04,3:07,Kampala Road,Kawempe,Highway,Rainy,Daylight,Medium,Truck,3,55,Female,16,No,No,Yes,Minor,4,2,Head Injury,0.375281,32.551924
+258,2023-09-23,6:54,Rubaga,Kawempe,Urban,Clear,Night,Medium,Bus,2,31,Female,3,Yes,Yes,No,Fatal,0,2,Head Injury,0.344728,32.569781
+259,2023-07-06,23:39,Rubaga,Central,Urban,Rainy,Daylight,Low,Car,1,34,Female,5,No,No,Yes,Serious,1,1,Fracture,0.38284,32.614149
+260,2023-08-22,16:43,Bwaise,Nakawa,Urban,Rainy,Daylight,Low,Truck,3,57,Male,17,Yes,No,No,Serious,3,1,,0.351137,32.634253
+261,2023-02-13,14:12,Kireka,Rubaga,Urban,Clear,Daylight,Low,Boda Boda,1,40,Male,4,No,Yes,Yes,Fatal,4,0,Head Injury,0.346947,32.641606
+262,2023-12-05,22:11,Rubaga,Makindye,Highway,Rainy,Night,Medium,Car,3,34,Male,19,No,No,Yes,Minor,2,1,Multiple,0.334146,32.601959
+263,2023-02-11,22:03,Rubaga,Nakawa,Urban,Rainy,Night,High,Car,2,51,Female,19,No,Yes,No,Minor,1,1,Fracture,0.327714,32.583809
+264,2023-03-18,21:53,Katwe,Rubaga,Urban,Clear,Night,High,Bus,2,18,Female,6,Yes,No,Yes,Minor,1,1,Head Injury,0.389559,32.600289
+265,2023-04-30,6:24,Ntinda,Rubaga,Urban,Rainy,Night,Low,Car,2,36,Male,6,No,No,Yes,Fatal,0,1,Multiple,0.322831,32.507437
+266,2023-06-12,10:39,Ntinda,Nakawa,Urban,Clear,Daylight,High,Boda Boda,2,18,Male,15,Yes,No,Yes,Serious,3,2,Multiple,0.363946,32.504751
+267,2023-11-26,16:39,Kireka,Nakawa,Urban,Rainy,Daylight,High,Boda Boda,1,45,Male,12,Yes,No,Yes,Serious,4,0,Fracture,0.299934,32.561157
+268,2023-01-11,1:31,Kireka,Makindye,Highway,Clear,Night,Medium,Bus,2,50,Male,17,No,No,No,Minor,3,1,Head Injury,0.312458,32.570948
+269,2023-06-24,13:00,Katwe,Nakawa,Highway,Clear,Daylight,Medium,Car,3,67,Male,11,Yes,Yes,No,Fatal,0,2,Multiple,0.314378,32.608962
+270,2023-12-02,15:37,Katwe,Makindye,Highway,Clear,Night,High,Truck,2,66,Male,11,No,No,Yes,Serious,4,2,Head Injury,0.298453,32.604054
+271,2023-04-30,13:56,Makindye,Rubaga,Highway,Clear,Daylight,Medium,Bus,3,25,Male,13,Yes,No,No,Serious,4,1,Head Injury,0.293397,32.57877
+272,2023-05-16,7:36,Bwaise,Central,Urban,Clear,Daylight,Medium,Truck,1,49,Male,11,No,No,Yes,Fatal,3,2,Multiple,0.337387,32.603443
+273,2023-05-04,7:35,Rubaga,Nakawa,Highway,Clear,Night,Medium,Bus,1,24,Female,6,No,Yes,Yes,Minor,1,2,Fracture,0.339291,32.611378
+274,2023-06-03,13:10,Rubaga,Makindye,Highway,Clear,Night,Low,Bus,1,55,Male,5,Yes,No,No,Serious,2,2,Fracture,0.369518,32.630001
+275,2023-03-18,14:58,Makindye,Rubaga,Highway,Rainy,Night,High,Car,3,55,Female,8,No,No,No,Minor,1,0,Multiple,0.35372,32.515868
+276,2023-01-28,23:58,Makindye,Makindye,Highway,Rainy,Daylight,Low,Car,2,42,Female,2,No,Yes,No,Serious,2,1,,0.369241,32.61968
+277,2023-03-12,21:59,Katwe,Central,Highway,Rainy,Daylight,High,Boda Boda,3,36,Female,15,No,Yes,Yes,Serious,3,2,Fracture,0.388659,32.601058
+278,2023-07-16,13:55,Rubaga,Makindye,Urban,Clear,Night,High,Car,1,21,Female,18,No,No,No,Minor,0,0,,0.33224,32.595372
+279,2023-05-23,6:26,Rubaga,Makindye,Highway,Clear,Daylight,Medium,Truck,1,49,Female,10,Yes,No,No,Fatal,2,2,Head Injury,0.360091,32.544279
+280,2023-06-16,1:27,Makindye,Nakawa,Urban,Clear,Daylight,High,Truck,2,56,Male,2,No,No,Yes,Minor,2,2,Fracture,0.373961,32.531167
+281,2023-03-15,17:51,Makindye,Nakawa,Highway,Rainy,Night,Medium,Car,3,25,Female,17,Yes,Yes,Yes,Minor,0,2,Multiple,0.362036,32.504524
+282,2023-06-17,16:02,Rubaga,Nakawa,Highway,Rainy,Daylight,Low,Truck,2,51,Male,6,No,Yes,Yes,Serious,2,2,Multiple,0.375305,32.604785
+283,2023-05-27,8:39,Kampala Road,Nakawa,Highway,Clear,Night,Low,Truck,2,20,Female,16,No,Yes,No,Serious,4,1,,0.373993,32.600588
+284,2023-08-29,20:41,Katwe,Central,Urban,Rainy,Daylight,Medium,Truck,1,52,Female,13,No,Yes,Yes,Minor,0,2,,0.350118,32.60518
+285,2023-09-05,23:01,Kireka,Nakawa,Urban,Clear,Night,Medium,Truck,3,37,Male,6,No,No,No,Minor,2,1,Multiple,0.364226,32.567962
+286,2023-05-11,4:23,Rubaga,Central,Urban,Clear,Daylight,Low,Bus,3,65,Female,12,No,Yes,Yes,Fatal,2,0,Multiple,0.328724,32.5463
+287,2023-05-01,0:11,Bwaise,Nakawa,Highway,Rainy,Night,High,Truck,3,55,Male,16,Yes,Yes,Yes,Minor,0,0,,0.347894,32.624073
+288,2023-04-22,5:01,Makindye,Nakawa,Urban,Clear,Daylight,Low,Car,3,62,Female,10,No,No,Yes,Minor,1,1,Head Injury,0.326772,32.535692
+289,2023-02-26,21:36,Kireka,Makindye,Urban,Rainy,Night,High,Truck,3,46,Male,11,Yes,Yes,No,Fatal,0,1,,0.311898,32.52794
+290,2023-08-24,21:17,Bwaise,Kawempe,Urban,Rainy,Daylight,Low,Boda Boda,2,50,Female,3,No,Yes,Yes,Serious,1,2,,0.326992,32.621256
+291,2023-05-27,17:05,Kampala Road,Kawempe,Highway,Clear,Daylight,Medium,Car,3,31,Female,10,No,Yes,No,Minor,4,2,Fracture,0.350732,32.541045
+292,2023-10-30,12:58,Kampala Road,Central,Highway,Rainy,Daylight,Low,Boda Boda,1,37,Female,19,No,No,No,Serious,2,0,,0.371455,32.635786
+293,2023-08-02,21:07,Ntinda,Rubaga,Urban,Rainy,Night,High,Car,2,31,Female,10,Yes,Yes,No,Fatal,3,0,Multiple,0.298295,32.616941
+294,2023-07-25,13:24,Ntinda,Kawempe,Highway,Rainy,Daylight,High,Car,1,42,Male,1,Yes,Yes,Yes,Minor,1,0,Head Injury,0.331333,32.564849
+295,2023-06-15,2:50,Rubaga,Makindye,Highway,Clear,Night,Medium,Bus,3,23,Male,15,No,No,No,Minor,2,0,Head Injury,0.333676,32.587204
+296,2023-10-05,5:09,Bwaise,Makindye,Urban,Rainy,Night,High,Car,2,51,Female,7,No,Yes,No,Fatal,2,0,,0.292682,32.549629
+297,2023-09-10,3:56,Rubaga,Makindye,Highway,Rainy,Night,Low,Bus,2,57,Female,2,Yes,No,Yes,Serious,0,2,Head Injury,0.353884,32.540951
+298,2023-02-21,1:41,Kampala Road,Central,Highway,Rainy,Daylight,Low,Car,3,63,Female,15,Yes,Yes,Yes,Fatal,3,0,Head Injury,0.376621,32.627546
+299,2023-03-21,4:50,Rubaga,Kawempe,Highway,Clear,Daylight,High,Car,1,36,Female,5,No,No,No,Minor,2,0,Head Injury,0.369961,32.574622
+300,2023-06-26,17:14,Bwaise,Kawempe,Urban,Rainy,Daylight,High,Car,3,61,Female,15,Yes,Yes,Yes,Minor,2,1,Head Injury,0.315819,32.621349
+301,2023-10-23,17:26,Makindye,Kawempe,Highway,Rainy,Daylight,Low,Truck,3,31,Male,10,Yes,Yes,Yes,Serious,1,2,,0.33229,32.598849
+302,2023-06-23,18:06,Bwaise,Central,Highway,Rainy,Daylight,Low,Bus,3,55,Female,10,Yes,Yes,No,Fatal,4,1,Multiple,0.378818,32.527667
+303,2023-11-14,9:32,Ntinda,Makindye,Urban,Clear,Daylight,Low,Car,1,40,Female,8,No,Yes,No,Serious,2,0,Head Injury,0.372306,32.583154
+304,2023-05-02,4:53,Rubaga,Nakawa,Highway,Clear,Night,Medium,Bus,2,55,Male,7,No,No,No,Serious,4,2,,0.349754,32.585844
+305,2023-04-04,10:42,Bwaise,Rubaga,Urban,Rainy,Daylight,Low,Car,2,55,Female,1,Yes,Yes,No,Fatal,4,1,Head Injury,0.352173,32.599532
+306,2023-02-19,17:42,Makindye,Rubaga,Highway,Clear,Night,Low,Bus,2,34,Female,10,No,Yes,No,Fatal,2,1,,0.373341,32.59931
+307,2023-05-17,17:58,Kireka,Nakawa,Urban,Clear,Daylight,High,Bus,3,37,Male,1,Yes,No,No,Minor,4,1,Fracture,0.29684,32.609352
+308,2023-07-21,10:32,Ntinda,Makindye,Urban,Clear,Night,High,Truck,1,35,Male,13,Yes,Yes,No,Serious,2,1,Multiple,0.352444,32.531545
+309,2023-12-31,8:23,Ntinda,Makindye,Highway,Rainy,Daylight,Low,Car,3,28,Female,9,No,No,No,Minor,4,0,Head Injury,0.385623,32.533826
+310,2023-01-01,14:57,Makindye,Rubaga,Urban,Rainy,Night,High,Boda Boda,3,28,Female,18,Yes,Yes,No,Minor,1,1,,0.336553,32.579175
+311,2023-05-09,21:16,Kampala Road,Kawempe,Highway,Clear,Night,Medium,Boda Boda,3,43,Male,7,Yes,No,No,Serious,2,0,Fracture,0.374333,32.536916
+312,2023-02-10,22:00,Kampala Road,Central,Highway,Rainy,Night,High,Bus,3,66,Male,2,Yes,Yes,No,Fatal,3,0,Fracture,0.311803,32.626714
+313,2023-10-17,14:33,Kireka,Kawempe,Highway,Rainy,Daylight,Medium,Car,2,47,Female,6,Yes,No,Yes,Fatal,3,0,Multiple,0.356192,32.612447
+314,2023-12-25,21:51,Katwe,Central,Urban,Clear,Night,High,Bus,2,64,Female,19,No,Yes,Yes,Fatal,4,2,Multiple,0.354534,32.514429
+315,2023-10-03,14:21,Kireka,Kawempe,Urban,Clear,Daylight,Medium,Truck,1,65,Female,3,No,Yes,Yes,Minor,1,2,Fracture,0.290538,32.605147
+316,2023-03-18,6:39,Bwaise,Kawempe,Urban,Clear,Daylight,Low,Bus,1,18,Male,18,Yes,No,No,Serious,1,0,Fracture,0.350575,32.549058
+317,2023-10-20,17:50,Makindye,Central,Highway,Clear,Daylight,Low,Bus,2,63,Female,11,No,No,No,Fatal,3,2,Multiple,0.294479,32.616737
+318,2023-08-08,10:01,Katwe,Nakawa,Highway,Rainy,Night,High,Truck,2,28,Female,4,No,Yes,Yes,Fatal,0,2,,0.307193,32.572397
+319,2023-05-28,11:46,Kampala Road,Kawempe,Highway,Rainy,Daylight,Medium,Car,3,49,Female,12,No,Yes,No,Fatal,0,2,,0.337568,32.587795
+320,2023-02-11,9:03,Kireka,Nakawa,Urban,Clear,Daylight,Medium,Truck,3,50,Male,10,No,Yes,Yes,Fatal,1,0,,0.349148,32.581771
+321,2023-01-07,3:38,Kireka,Kawempe,Highway,Clear,Night,High,Car,1,29,Female,14,Yes,No,Yes,Serious,0,2,Multiple,0.306022,32.5281
+322,2023-01-05,14:38,Kireka,Kawempe,Urban,Rainy,Night,Medium,Car,1,33,Male,4,No,Yes,No,Fatal,4,0,Fracture,0.32441,32.630488
+323,2023-09-03,5:15,Bwaise,Makindye,Highway,Rainy,Night,High,Boda Boda,2,66,Female,17,No,Yes,No,Serious,0,2,,0.319269,32.58176
+324,2023-04-27,19:02,Kireka,Kawempe,Highway,Rainy,Daylight,Medium,Bus,2,63,Male,8,No,No,Yes,Minor,1,1,Fracture,0.318769,32.643543
+325,2023-05-25,18:35,Rubaga,Makindye,Urban,Clear,Night,Medium,Bus,1,59,Male,4,Yes,No,No,Minor,1,1,Head Injury,0.379394,32.53468
+326,2023-09-26,8:45,Katwe,Central,Urban,Clear,Night,High,Car,3,28,Male,8,No,No,No,Fatal,3,1,Multiple,0.368265,32.627997
+327,2023-10-19,5:25,Rubaga,Rubaga,Urban,Rainy,Night,Low,Bus,2,49,Male,1,Yes,Yes,Yes,Fatal,3,1,Multiple,0.334577,32.567348
+328,2023-03-23,11:27,Bwaise,Makindye,Urban,Rainy,Daylight,Low,Boda Boda,2,35,Male,19,Yes,No,Yes,Minor,3,1,Fracture,0.319627,32.644868
+329,2023-10-09,0:13,Kampala Road,Central,Urban,Rainy,Night,Medium,Bus,3,51,Female,7,No,No,No,Minor,1,2,Multiple,0.357728,32.56519
+330,2023-08-25,11:36,Katwe,Rubaga,Urban,Clear,Daylight,Low,Truck,3,45,Male,19,No,Yes,No,Serious,1,2,Fracture,0.33999,32.534186
+331,2023-04-18,18:38,Rubaga,Nakawa,Urban,Clear,Night,Medium,Boda Boda,3,51,Male,14,Yes,No,Yes,Serious,0,0,Multiple,0.361083,32.641498
+332,2023-05-24,5:57,Katwe,Rubaga,Urban,Rainy,Night,Low,Bus,1,20,Male,4,No,No,Yes,Fatal,2,1,Multiple,0.338293,32.649804
+333,2023-01-29,13:19,Makindye,Kawempe,Urban,Rainy,Night,Medium,Truck,3,68,Male,11,No,No,No,Minor,1,2,,0.30647,32.580208
+334,2023-04-28,12:23,Bwaise,Kawempe,Highway,Clear,Daylight,Medium,Truck,1,25,Female,6,Yes,Yes,Yes,Serious,2,0,Head Injury,0.378179,32.576203
+335,2023-08-15,20:51,Rubaga,Makindye,Highway,Clear,Night,High,Truck,3,27,Female,18,No,Yes,Yes,Fatal,3,2,,0.311535,32.5663
+336,2023-01-08,18:56,Kampala Road,Rubaga,Urban,Clear,Night,High,Truck,1,61,Female,14,Yes,No,Yes,Fatal,1,2,Fracture,0.363688,32.59451
+337,2023-12-06,12:27,Bwaise,Rubaga,Highway,Clear,Night,High,Car,2,29,Female,13,Yes,No,Yes,Minor,3,1,Head Injury,0.352849,32.638282
+338,2023-04-10,16:09,Ntinda,Central,Highway,Clear,Daylight,Medium,Bus,2,52,Male,1,No,Yes,No,Serious,0,0,Multiple,0.374137,32.54418
+339,2023-10-12,13:20,Rubaga,Kawempe,Urban,Clear,Night,Medium,Bus,3,45,Female,16,Yes,Yes,Yes,Serious,2,0,Multiple,0.344817,32.647173
+340,2023-01-23,13:31,Ntinda,Central,Highway,Rainy,Night,Low,Truck,1,40,Male,5,No,Yes,No,Fatal,0,1,Head Injury,0.33972,32.540865
+341,2023-02-09,16:38,Ntinda,Kawempe,Highway,Clear,Daylight,Low,Boda Boda,2,40,Male,14,No,Yes,Yes,Minor,4,0,,0.357891,32.554255
+342,2023-09-16,7:17,Ntinda,Kawempe,Highway,Rainy,Daylight,Low,Car,3,67,Female,17,No,No,Yes,Serious,0,0,Multiple,0.345257,32.530555
+343,2023-04-13,16:26,Rubaga,Makindye,Urban,Rainy,Daylight,Low,Car,2,46,Male,16,Yes,Yes,No,Fatal,4,2,Fracture,0.370853,32.636793
+344,2023-08-28,19:01,Rubaga,Rubaga,Highway,Clear,Night,High,Bus,3,18,Male,1,Yes,Yes,No,Fatal,2,1,Head Injury,0.298568,32.616103
+345,2023-01-06,6:22,Bwaise,Nakawa,Urban,Rainy,Night,High,Bus,1,25,Female,5,No,Yes,No,Serious,1,1,Head Injury,0.334737,32.543586
+346,2023-03-07,15:59,Ntinda,Rubaga,Urban,Clear,Night,Medium,Bus,2,30,Female,4,Yes,No,No,Serious,3,2,Fracture,0.369634,32.604585
+347,2023-12-11,5:36,Ntinda,Central,Highway,Clear,Daylight,Low,Bus,1,66,Female,2,No,Yes,No,Minor,1,0,Head Injury,0.319486,32.528831
+348,2023-06-03,10:25,Makindye,Kawempe,Highway,Clear,Daylight,High,Bus,1,65,Female,2,No,Yes,Yes,Serious,4,2,,0.331593,32.532538
+349,2023-03-03,2:23,Bwaise,Makindye,Highway,Clear,Night,Low,Boda Boda,1,44,Female,2,Yes,Yes,Yes,Serious,1,0,Head Injury,0.347668,32.572899
+350,2023-03-29,7:04,Kireka,Makindye,Highway,Clear,Night,High,Truck,3,63,Female,16,Yes,Yes,Yes,Serious,4,1,Multiple,0.351523,32.511141
+351,2023-03-20,4:27,Rubaga,Central,Highway,Rainy,Night,Medium,Bus,1,52,Male,13,Yes,No,Yes,Minor,4,2,Multiple,0.348334,32.523582
+352,2023-10-03,14:27,Kampala Road,Rubaga,Highway,Rainy,Daylight,Low,Bus,1,19,Female,11,Yes,No,No,Minor,3,0,Head Injury,0.377174,32.639806
+353,2023-02-19,4:46,Rubaga,Central,Urban,Clear,Night,Low,Truck,2,25,Male,2,No,No,Yes,Fatal,4,1,Head Injury,0.293494,32.583393
+354,2023-11-09,18:51,Ntinda,Rubaga,Urban,Clear,Night,High,Truck,1,67,Female,7,Yes,Yes,Yes,Serious,0,0,Head Injury,0.329352,32.538458
+355,2023-12-23,23:53,Rubaga,Rubaga,Urban,Rainy,Daylight,High,Car,2,63,Male,9,No,Yes,No,Serious,0,0,Multiple,0.307328,32.588851
+356,2023-02-22,17:57,Ntinda,Rubaga,Urban,Rainy,Daylight,Low,Boda Boda,3,27,Male,2,No,Yes,Yes,Serious,4,2,Fracture,0.318093,32.636189
+357,2023-06-20,14:20,Makindye,Nakawa,Urban,Rainy,Daylight,Low,Car,3,69,Male,7,Yes,No,No,Minor,4,0,,0.379327,32.568145
+358,2023-01-06,18:10,Rubaga,Central,Urban,Rainy,Night,Medium,Truck,2,69,Female,17,No,Yes,No,Minor,4,0,Head Injury,0.340659,32.589797
+359,2023-06-12,8:42,Ntinda,Central,Urban,Clear,Night,High,Boda Boda,1,67,Male,13,No,No,Yes,Fatal,1,0,Head Injury,0.350945,32.534434
+360,2023-04-20,4:48,Makindye,Nakawa,Highway,Rainy,Night,High,Car,3,57,Male,18,No,Yes,Yes,Minor,0,2,Multiple,0.353806,32.542641
+361,2023-07-17,9:25,Katwe,Central,Urban,Clear,Daylight,Low,Boda Boda,2,67,Male,15,No,Yes,Yes,Minor,3,0,,0.339256,32.517174
+362,2023-01-14,21:36,Rubaga,Makindye,Urban,Clear,Night,Low,Bus,2,29,Female,6,No,Yes,No,Minor,3,2,Multiple,0.368798,32.556153
+363,2023-12-11,19:55,Kampala Road,Kawempe,Highway,Clear,Daylight,High,Bus,3,46,Female,11,Yes,No,No,Minor,4,0,Head Injury,0.374529,32.581871
+364,2023-03-18,14:07,Ntinda,Central,Urban,Clear,Night,High,Car,2,63,Female,17,No,No,No,Minor,3,1,Multiple,0.357026,32.565845
+365,2023-02-22,19:38,Rubaga,Kawempe,Urban,Clear,Night,Low,Bus,3,34,Female,6,Yes,No,Yes,Serious,2,0,Fracture,0.344978,32.534348
+366,2023-05-25,11:07,Makindye,Nakawa,Urban,Rainy,Night,Medium,Truck,1,54,Female,4,Yes,No,Yes,Serious,4,1,Head Injury,0.290854,32.506895
+367,2023-03-14,15:01,Katwe,Nakawa,Highway,Rainy,Night,Medium,Boda Boda,2,35,Female,7,Yes,No,Yes,Minor,1,0,Head Injury,0.38464,32.532508
+368,2023-09-04,2:20,Katwe,Nakawa,Highway,Clear,Night,Low,Bus,3,48,Male,13,No,Yes,No,Serious,4,1,Fracture,0.293704,32.617085
+369,2023-04-13,17:38,Kampala Road,Nakawa,Urban,Clear,Daylight,High,Car,2,43,Female,18,No,No,No,Serious,3,1,Fracture,0.331143,32.519212
+370,2023-06-30,19:52,Bwaise,Kawempe,Urban,Rainy,Night,Medium,Truck,3,32,Male,12,Yes,Yes,Yes,Serious,2,0,Fracture,0.357989,32.514895
+371,2023-12-25,15:39,Ntinda,Makindye,Urban,Rainy,Night,High,Truck,1,51,Female,5,Yes,Yes,No,Fatal,1,0,Head Injury,0.355707,32.536589
+372,2023-10-30,9:40,Bwaise,Kawempe,Urban,Clear,Daylight,Low,Truck,2,44,Female,12,No,Yes,Yes,Fatal,2,0,Head Injury,0.347647,32.632247
+373,2023-02-05,15:57,Rubaga,Central,Urban,Rainy,Daylight,Low,Bus,1,45,Male,16,No,No,Yes,Fatal,2,1,Head Injury,0.353402,32.520575
+374,2023-02-17,0:04,Kampala Road,Makindye,Urban,Rainy,Night,Low,Car,3,49,Male,8,No,No,Yes,Serious,4,1,Head Injury,0.327423,32.632892
+375,2023-06-12,1:12,Katwe,Central,Highway,Clear,Daylight,Low,Boda Boda,3,33,Female,5,Yes,No,No,Minor,4,0,Fracture,0.380517,32.552078
+376,2023-11-14,17:40,Makindye,Kawempe,Highway,Clear,Daylight,Low,Boda Boda,1,21,Male,19,Yes,No,No,Fatal,3,0,,0.373732,32.638501
+377,2023-01-18,23:21,Makindye,Kawempe,Highway,Clear,Daylight,Medium,Truck,1,42,Female,8,Yes,Yes,Yes,Fatal,3,1,Head Injury,0.338737,32.539683
+378,2023-05-06,4:27,Kampala Road,Central,Highway,Clear,Night,High,Truck,3,31,Male,8,No,No,Yes,Serious,3,0,Multiple,0.375506,32.538988
+379,2023-06-23,2:30,Katwe,Rubaga,Urban,Clear,Night,Low,Bus,1,64,Female,18,Yes,Yes,Yes,Minor,0,0,Head Injury,0.351995,32.53136
+380,2023-11-02,10:14,Kampala Road,Rubaga,Highway,Clear,Daylight,Medium,Car,2,26,Female,3,Yes,Yes,Yes,Fatal,3,2,Multiple,0.326647,32.552655
+381,2023-01-23,23:41,Ntinda,Rubaga,Urban,Clear,Night,High,Car,1,30,Female,13,No,No,Yes,Serious,2,2,Multiple,0.355135,32.519997
+382,2023-07-13,11:07,Katwe,Rubaga,Highway,Rainy,Night,Medium,Car,3,54,Female,18,No,Yes,No,Fatal,2,0,Fracture,0.375273,32.531422
+383,2023-03-09,20:58,Kireka,Kawempe,Highway,Clear,Night,Medium,Boda Boda,1,19,Female,13,No,No,Yes,Fatal,1,1,Multiple,0.329762,32.595741
+384,2023-05-19,7:41,Makindye,Kawempe,Highway,Rainy,Daylight,High,Boda Boda,2,53,Male,13,Yes,Yes,No,Serious,0,2,Multiple,0.348055,32.609004
+385,2023-05-03,4:41,Makindye,Rubaga,Highway,Rainy,Daylight,Low,Car,2,48,Male,3,No,Yes,Yes,Minor,4,2,Fracture,0.358729,32.592314
+386,2023-09-11,2:19,Kampala Road,Nakawa,Urban,Rainy,Night,Low,Boda Boda,2,51,Female,15,Yes,Yes,No,Fatal,3,2,Fracture,0.367525,32.539954
+387,2023-04-11,9:13,Ntinda,Nakawa,Highway,Rainy,Night,High,Truck,3,53,Male,7,No,No,No,Serious,0,2,,0.295374,32.619425
+388,2023-05-16,10:07,Rubaga,Rubaga,Highway,Clear,Night,High,Truck,1,18,Male,19,No,Yes,No,Fatal,1,0,Fracture,0.372403,32.51333
+389,2023-11-30,22:15,Katwe,Makindye,Urban,Clear,Daylight,Low,Car,2,30,Female,6,Yes,No,Yes,Serious,4,1,,0.344036,32.647063
+390,2023-05-12,2:30,Ntinda,Makindye,Urban,Rainy,Night,High,Truck,1,54,Male,11,No,Yes,Yes,Fatal,3,0,,0.3755,32.518311
+391,2023-09-05,12:40,Ntinda,Nakawa,Urban,Rainy,Night,High,Car,1,56,Female,18,Yes,No,No,Minor,4,1,,0.297827,32.568351
+392,2023-10-14,1:15,Kampala Road,Central,Urban,Rainy,Daylight,High,Bus,3,29,Male,12,No,No,Yes,Minor,0,2,Head Injury,0.357076,32.513343
+393,2023-01-17,13:12,Rubaga,Central,Highway,Clear,Night,High,Car,2,31,Male,2,No,Yes,Yes,Minor,0,0,,0.293678,32.512744
+394,2023-02-06,10:30,Kireka,Nakawa,Highway,Clear,Daylight,Low,Truck,2,57,Male,14,Yes,No,Yes,Fatal,0,1,Multiple,0.37815,32.60347
+395,2023-10-12,22:23,Ntinda,Central,Urban,Rainy,Night,Low,Car,3,26,Male,14,Yes,No,Yes,Serious,3,0,Head Injury,0.29033,32.568614
+396,2023-07-01,9:16,Bwaise,Makindye,Highway,Clear,Night,High,Truck,3,35,Female,7,Yes,No,Yes,Serious,2,1,,0.344621,32.632721
+397,2023-11-09,0:44,Kireka,Kawempe,Highway,Clear,Night,High,Bus,1,48,Female,2,No,No,No,Minor,3,2,Multiple,0.371246,32.648084
+398,2023-11-22,16:29,Kampala Road,Nakawa,Urban,Clear,Daylight,Medium,Truck,1,25,Male,14,No,No,Yes,Fatal,3,1,,0.351696,32.532659
+399,2023-10-29,13:52,Rubaga,Nakawa,Highway,Clear,Daylight,Low,Truck,2,51,Male,11,No,Yes,Yes,Minor,4,0,,0.383696,32.57061
+400,2023-12-26,14:13,Bwaise,Nakawa,Highway,Clear,Night,High,Truck,1,30,Female,6,No,Yes,No,Minor,0,2,Fracture,0.315802,32.552331
+401,2023-09-01,12:28,Kampala Road,Nakawa,Urban,Clear,Daylight,Medium,Boda Boda,3,46,Male,4,Yes,Yes,No,Fatal,0,0,Fracture,0.36757,32.556281
+402,2023-02-26,14:36,Bwaise,Rubaga,Urban,Rainy,Daylight,Low,Truck,2,33,Female,2,No,Yes,Yes,Minor,4,1,Head Injury,0.352056,32.641526
+403,2023-10-28,20:48,Rubaga,Kawempe,Urban,Clear,Daylight,Medium,Boda Boda,1,34,Male,7,No,Yes,No,Serious,4,0,Fracture,0.297826,32.580431
+404,2023-05-14,17:26,Kampala Road,Kawempe,Urban,Clear,Night,Low,Truck,3,58,Female,19,Yes,No,No,Serious,2,2,Head Injury,0.308668,32.512755
+405,2023-08-06,3:29,Bwaise,Makindye,Highway,Clear,Night,High,Car,2,51,Male,12,Yes,Yes,No,Minor,1,1,,0.365362,32.643781
+406,2023-07-03,23:48,Ntinda,Makindye,Urban,Clear,Daylight,Medium,Truck,1,50,Male,10,No,No,No,Fatal,0,2,Head Injury,0.313389,32.560408
+407,2023-09-17,21:36,Kampala Road,Nakawa,Highway,Rainy,Night,High,Boda Boda,3,21,Female,10,No,Yes,No,Fatal,3,0,Head Injury,0.365132,32.646607
+408,2023-11-01,10:12,Katwe,Central,Highway,Clear,Daylight,High,Car,1,52,Male,4,Yes,Yes,No,Serious,2,2,,0.367188,32.631945
+409,2023-07-11,18:33,Kampala Road,Nakawa,Urban,Clear,Daylight,High,Boda Boda,3,19,Female,3,Yes,Yes,No,Minor,4,0,Multiple,0.31014,32.61871
+410,2023-09-27,3:35,Bwaise,Makindye,Urban,Rainy,Daylight,Low,Car,2,61,Male,1,No,No,No,Serious,2,0,Head Injury,0.388694,32.51852
+411,2023-10-26,7:05,Kireka,Nakawa,Urban,Rainy,Daylight,Low,Boda Boda,3,23,Female,19,Yes,No,No,Fatal,0,0,Multiple,0.315153,32.541731
+412,2023-03-26,4:55,Kampala Road,Kawempe,Urban,Clear,Night,High,Bus,2,26,Female,12,Yes,Yes,No,Serious,3,2,Multiple,0.327815,32.556839
+413,2023-09-16,15:26,Katwe,Central,Urban,Clear,Daylight,High,Bus,1,57,Male,7,No,No,Yes,Minor,1,0,Head Injury,0.374594,32.611604
+414,2023-10-13,8:12,Ntinda,Rubaga,Urban,Rainy,Night,Medium,Car,1,36,Female,18,Yes,No,No,Fatal,2,0,,0.341294,32.623768
+415,2023-07-12,2:59,Bwaise,Rubaga,Highway,Clear,Daylight,Low,Car,3,33,Male,4,Yes,Yes,Yes,Minor,2,1,Fracture,0.342266,32.630243
+416,2023-11-27,12:24,Bwaise,Rubaga,Highway,Rainy,Daylight,High,Bus,3,38,Male,6,Yes,Yes,No,Fatal,4,0,Fracture,0.313697,32.507752
+417,2023-05-16,16:18,Kampala Road,Makindye,Highway,Clear,Daylight,Low,Boda Boda,1,30,Male,10,Yes,No,Yes,Fatal,4,1,Head Injury,0.313592,32.579444
+418,2023-11-04,15:05,Katwe,Makindye,Urban,Clear,Daylight,Medium,Boda Boda,1,23,Female,13,Yes,No,Yes,Serious,2,2,Multiple,0.347275,32.614536
+419,2023-06-25,21:32,Rubaga,Kawempe,Highway,Clear,Night,Medium,Car,2,66,Male,11,No,No,Yes,Serious,4,1,Multiple,0.373152,32.54181
+420,2023-01-22,23:28,Bwaise,Central,Highway,Rainy,Daylight,High,Bus,1,19,Male,19,No,No,Yes,Minor,3,2,Fracture,0.384568,32.569588
+421,2023-01-21,19:29,Bwaise,Central,Urban,Clear,Night,Medium,Car,2,40,Female,6,Yes,Yes,Yes,Serious,2,0,Fracture,0.310284,32.647998
+422,2023-02-26,15:19,Kireka,Rubaga,Urban,Rainy,Night,Medium,Boda Boda,3,64,Male,16,No,No,No,Serious,3,1,Fracture,0.302321,32.538092
+423,2023-03-03,11:18,Kireka,Kawempe,Highway,Clear,Daylight,Low,Bus,3,35,Male,6,Yes,Yes,No,Serious,0,0,Head Injury,0.354419,32.59562
+424,2023-03-06,9:05,Makindye,Central,Highway,Clear,Daylight,High,Bus,3,49,Female,5,Yes,Yes,No,Minor,2,0,Multiple,0.348852,32.606455
+425,2023-12-04,8:13,Kampala Road,Makindye,Urban,Clear,Night,Low,Bus,2,64,Male,7,Yes,No,No,Minor,2,0,,0.293817,32.527586
+426,2023-04-11,19:41,Kireka,Central,Highway,Clear,Daylight,Medium,Boda Boda,2,54,Female,12,No,No,No,Fatal,3,1,,0.355267,32.547929
+427,2023-11-27,3:46,Kireka,Central,Highway,Clear,Night,Low,Car,3,63,Female,14,No,No,No,Serious,2,2,,0.337937,32.597898
+428,2023-10-14,5:48,Kampala Road,Central,Urban,Rainy,Night,Medium,Truck,3,35,Male,3,Yes,Yes,No,Serious,2,0,,0.301073,32.613935
+429,2023-10-06,20:41,Ntinda,Rubaga,Highway,Rainy,Daylight,Medium,Truck,2,40,Male,18,No,No,No,Serious,0,1,,0.381082,32.531487
+430,2023-04-19,15:47,Ntinda,Makindye,Highway,Rainy,Night,Medium,Bus,3,36,Male,6,Yes,No,No,Fatal,1,2,Fracture,0.328777,32.549819
+431,2023-02-20,9:30,Katwe,Makindye,Highway,Rainy,Night,Medium,Car,2,45,Male,8,Yes,No,No,Serious,3,1,Multiple,0.332724,32.5964
+432,2023-03-19,22:23,Katwe,Nakawa,Highway,Rainy,Night,Low,Bus,2,46,Male,13,No,Yes,Yes,Fatal,3,0,Fracture,0.334145,32.533936
+433,2023-07-07,12:16,Kampala Road,Makindye,Urban,Rainy,Night,Low,Boda Boda,1,26,Male,6,No,No,Yes,Minor,1,1,Head Injury,0.291684,32.542282
+434,2023-01-23,5:39,Ntinda,Central,Urban,Clear,Daylight,High,Car,1,38,Male,4,No,Yes,Yes,Minor,4,1,Head Injury,0.328256,32.586453
+435,2023-03-27,20:22,Makindye,Kawempe,Highway,Rainy,Daylight,Medium,Bus,1,60,Female,16,No,No,No,Serious,0,0,,0.304153,32.595508
+436,2023-04-15,9:40,Rubaga,Makindye,Highway,Rainy,Daylight,High,Truck,3,56,Male,18,No,No,Yes,Fatal,3,0,Head Injury,0.383427,32.536384
+437,2023-05-25,9:26,Ntinda,Kawempe,Urban,Rainy,Daylight,Low,Boda Boda,1,42,Male,7,Yes,No,Yes,Minor,0,0,Head Injury,0.368047,32.553132
+438,2023-05-23,10:03,Kampala Road,Makindye,Urban,Clear,Night,Medium,Bus,3,58,Male,10,No,Yes,Yes,Fatal,3,2,Fracture,0.315541,32.508022
+439,2023-07-26,21:34,Kireka,Central,Urban,Clear,Daylight,High,Car,2,54,Male,16,Yes,No,Yes,Serious,0,0,Head Injury,0.295617,32.605128
+440,2023-02-04,0:37,Kampala Road,Makindye,Urban,Rainy,Daylight,High,Truck,2,57,Male,3,No,No,No,Fatal,1,0,Fracture,0.30094,32.518521
+441,2023-06-28,12:03,Kampala Road,Kawempe,Highway,Rainy,Night,Medium,Car,3,27,Male,19,Yes,No,No,Minor,0,2,Multiple,0.34,32.54381
+442,2023-03-10,7:37,Kampala Road,Central,Highway,Clear,Night,Medium,Boda Boda,1,55,Male,9,No,No,Yes,Fatal,3,0,Head Injury,0.301398,32.550693
+443,2023-07-14,22:06,Kireka,Rubaga,Urban,Rainy,Night,Medium,Truck,1,69,Female,8,Yes,No,No,Minor,4,2,Multiple,0.361635,32.576787
+444,2023-02-28,20:42,Makindye,Makindye,Urban,Rainy,Night,Low,Car,1,31,Male,5,Yes,No,Yes,Minor,4,1,Multiple,0.298393,32.633638
+445,2023-08-16,0:15,Bwaise,Nakawa,Highway,Rainy,Night,High,Truck,3,29,Female,6,No,Yes,No,Fatal,0,2,Head Injury,0.348835,32.572604
+446,2023-01-29,0:02,Kampala Road,Central,Urban,Clear,Daylight,Low,Bus,2,23,Male,10,Yes,No,No,Minor,3,2,Multiple,0.375385,32.563832
+447,2023-10-26,3:58,Makindye,Makindye,Highway,Rainy,Daylight,Low,Car,2,23,Male,16,Yes,No,Yes,Serious,0,0,,0.36568,32.504235
+448,2023-04-22,8:03,Bwaise,Central,Highway,Clear,Daylight,Medium,Car,2,69,Male,16,No,Yes,Yes,Serious,0,2,Fracture,0.290662,32.646867
+449,2023-12-11,18:23,Ntinda,Central,Highway,Clear,Daylight,Low,Boda Boda,3,38,Male,6,No,No,No,Serious,1,1,Head Injury,0.295937,32.583068
+450,2023-12-24,12:13,Kireka,Rubaga,Urban,Rainy,Daylight,High,Truck,2,50,Female,3,No,Yes,No,Minor,1,2,Multiple,0.38529,32.605714
+451,2023-04-25,19:23,Makindye,Rubaga,Urban,Rainy,Night,Low,Car,2,57,Male,5,Yes,No,No,Fatal,0,1,Multiple,0.313756,32.646882
+452,2023-11-11,13:46,Rubaga,Rubaga,Urban,Clear,Night,Medium,Bus,3,48,Male,2,No,Yes,No,Minor,1,1,,0.35066,32.581915
+453,2023-08-28,1:42,Makindye,Rubaga,Urban,Clear,Night,Medium,Bus,2,24,Male,2,Yes,Yes,No,Serious,2,2,Multiple,0.35081,32.605058
+454,2023-08-09,17:15,Bwaise,Rubaga,Highway,Rainy,Night,High,Car,3,52,Female,6,Yes,Yes,Yes,Serious,0,0,Head Injury,0.311501,32.571875
+455,2023-08-23,22:18,Rubaga,Nakawa,Urban,Clear,Night,Medium,Boda Boda,2,35,Female,10,No,Yes,Yes,Serious,3,1,Fracture,0.331245,32.647809
+456,2023-06-24,3:50,Rubaga,Nakawa,Urban,Clear,Daylight,Low,Bus,2,58,Male,4,No,Yes,No,Minor,1,2,Head Injury,0.294646,32.589089
+457,2023-08-24,8:06,Rubaga,Makindye,Urban,Rainy,Night,Low,Car,1,69,Female,6,No,Yes,Yes,Serious,0,2,,0.372836,32.539513
+458,2023-03-19,9:13,Kampala Road,Central,Highway,Rainy,Daylight,Medium,Bus,3,68,Male,19,Yes,Yes,Yes,Serious,2,0,Multiple,0.380014,32.648008
+459,2023-06-27,23:48,Makindye,Nakawa,Urban,Rainy,Daylight,Low,Car,2,66,Female,16,No,No,Yes,Minor,3,0,Multiple,0.346304,32.635141
+460,2023-05-30,14:34,Rubaga,Nakawa,Urban,Rainy,Night,High,Car,3,18,Male,1,No,No,Yes,Minor,3,1,Fracture,0.331752,32.602736
+461,2023-10-13,2:02,Kireka,Rubaga,Urban,Rainy,Night,Medium,Bus,2,27,Male,13,Yes,Yes,No,Fatal,3,0,,0.380319,32.582214
+462,2023-07-19,8:16,Kireka,Nakawa,Highway,Clear,Daylight,High,Boda Boda,1,31,Male,19,Yes,No,No,Fatal,3,0,Fracture,0.36889,32.553204
+463,2023-05-17,7:07,Kampala Road,Makindye,Urban,Clear,Night,Medium,Truck,2,55,Male,16,Yes,No,Yes,Serious,2,2,Fracture,0.299283,32.550516
+464,2023-11-30,21:51,Rubaga,Nakawa,Highway,Clear,Daylight,Medium,Boda Boda,3,52,Male,17,Yes,No,Yes,Fatal,1,0,Multiple,0.382658,32.646102
+465,2023-10-12,6:17,Bwaise,Central,Highway,Rainy,Night,High,Car,2,20,Female,13,No,No,No,Serious,0,1,,0.320122,32.515968
+466,2023-03-29,11:17,Katwe,Central,Highway,Clear,Daylight,Low,Truck,1,28,Male,14,Yes,No,Yes,Serious,0,0,,0.353052,32.614069
+467,2023-09-07,19:31,Kampala Road,Rubaga,Urban,Clear,Night,Medium,Car,3,24,Male,17,No,Yes,Yes,Serious,2,1,Head Injury,0.340455,32.553705
+468,2023-01-30,18:30,Kireka,Rubaga,Urban,Rainy,Night,High,Truck,2,20,Male,4,Yes,No,Yes,Fatal,0,2,,0.336437,32.646506
+469,2023-08-18,14:41,Kampala Road,Kawempe,Highway,Clear,Daylight,Medium,Car,1,66,Female,19,No,No,No,Minor,3,0,Multiple,0.319225,32.542955
+470,2023-11-14,4:33,Bwaise,Rubaga,Urban,Clear,Daylight,High,Truck,1,67,Male,8,No,No,Yes,Fatal,1,2,Multiple,0.349598,32.509437
+471,2023-12-06,14:44,Kireka,Nakawa,Highway,Rainy,Night,Medium,Bus,3,31,Female,12,Yes,No,No,Minor,2,2,,0.329834,32.559564
+472,2023-07-27,6:32,Ntinda,Kawempe,Urban,Rainy,Daylight,Low,Car,2,56,Male,19,No,No,No,Minor,1,0,Fracture,0.334707,32.599667
+473,2023-01-30,4:18,Ntinda,Kawempe,Urban,Clear,Night,High,Bus,2,32,Female,11,Yes,No,Yes,Minor,1,0,Head Injury,0.316328,32.508294
+474,2023-03-14,15:25,Katwe,Makindye,Highway,Rainy,Daylight,Low,Boda Boda,3,66,Female,19,Yes,No,Yes,Minor,3,2,Multiple,0.337363,32.531497
+475,2023-04-18,6:32,Ntinda,Nakawa,Urban,Clear,Night,Medium,Boda Boda,1,41,Female,7,Yes,Yes,No,Fatal,3,2,Multiple,0.301154,32.563724
+476,2023-06-16,9:35,Kampala Road,Central,Highway,Clear,Night,Low,Car,3,20,Male,19,No,No,Yes,Minor,3,0,Multiple,0.356894,32.52764
+477,2023-11-16,19:17,Bwaise,Kawempe,Urban,Rainy,Night,Low,Car,2,68,Female,17,No,Yes,No,Minor,2,2,Fracture,0.349398,32.51203
+478,2023-07-27,19:47,Rubaga,Nakawa,Highway,Rainy,Daylight,Medium,Bus,3,59,Male,2,No,No,No,Minor,0,0,,0.326756,32.585845
+479,2023-10-29,14:35,Katwe,Nakawa,Urban,Rainy,Daylight,Medium,Truck,2,24,Male,15,No,Yes,No,Minor,2,0,Head Injury,0.354054,32.579989
+480,2023-09-07,8:04,Bwaise,Kawempe,Highway,Rainy,Daylight,High,Bus,1,28,Female,1,Yes,No,No,Fatal,4,0,Multiple,0.299805,32.609413
+481,2023-08-25,9:18,Rubaga,Kawempe,Urban,Clear,Night,Medium,Bus,2,44,Male,9,No,No,Yes,Serious,0,1,Head Injury,0.310537,32.573755
+482,2023-09-22,19:30,Katwe,Makindye,Urban,Rainy,Night,High,Bus,1,49,Female,6,Yes,Yes,Yes,Serious,2,1,Fracture,0.290679,32.640318
+483,2023-07-10,22:22,Kireka,Central,Urban,Rainy,Night,High,Boda Boda,3,60,Male,17,Yes,No,Yes,Fatal,0,2,Fracture,0.303738,32.552137
+484,2023-12-10,9:18,Katwe,Kawempe,Urban,Rainy,Daylight,Low,Boda Boda,3,28,Male,16,Yes,No,No,Minor,2,2,Fracture,0.36163,32.551798
+485,2023-06-18,4:49,Ntinda,Rubaga,Urban,Rainy,Daylight,High,Truck,1,22,Male,8,No,Yes,Yes,Serious,3,0,,0.357304,32.602268
+486,2023-03-25,22:14,Kampala Road,Nakawa,Highway,Rainy,Night,Low,Bus,3,25,Female,17,Yes,Yes,No,Fatal,3,2,Multiple,0.328238,32.556664
+487,2023-10-04,3:37,Rubaga,Kawempe,Urban,Rainy,Daylight,Medium,Car,1,22,Female,12,No,No,No,Serious,2,1,Fracture,0.31095,32.597985
+488,2023-07-13,9:09,Bwaise,Makindye,Highway,Rainy,Night,Low,Bus,3,52,Male,12,Yes,Yes,Yes,Serious,0,1,Fracture,0.386291,32.573238
+489,2023-06-12,4:20,Katwe,Rubaga,Highway,Rainy,Daylight,High,Bus,1,45,Female,4,Yes,No,No,Fatal,0,1,Fracture,0.356755,32.627599
+490,2023-02-13,3:38,Ntinda,Rubaga,Highway,Rainy,Daylight,Low,Truck,3,24,Female,2,No,No,No,Serious,3,0,Head Injury,0.370703,32.502424
+491,2023-12-10,14:45,Rubaga,Makindye,Urban,Clear,Daylight,High,Car,3,48,Male,4,Yes,No,No,Minor,1,2,Multiple,0.305347,32.632916
+492,2023-04-13,17:55,Kireka,Nakawa,Highway,Rainy,Daylight,Low,Boda Boda,3,61,Male,13,Yes,No,No,Fatal,4,0,,0.324868,32.52284
+493,2023-03-02,6:16,Kampala Road,Kawempe,Urban,Rainy,Night,Medium,Truck,1,28,Female,7,No,Yes,No,Fatal,3,2,Multiple,0.327181,32.633587
+494,2023-11-12,8:10,Katwe,Rubaga,Urban,Clear,Daylight,Low,Boda Boda,1,67,Male,11,Yes,Yes,No,Fatal,1,2,Multiple,0.345773,32.596592
+495,2023-02-16,22:17,Makindye,Central,Highway,Rainy,Daylight,Medium,Boda Boda,3,19,Female,2,Yes,Yes,No,Minor,3,2,Head Injury,0.315181,32.503519
+496,2023-05-11,17:12,Bwaise,Makindye,Highway,Clear,Daylight,Low,Boda Boda,2,63,Male,14,Yes,Yes,No,Minor,2,2,Fracture,0.377411,32.630763
+497,2023-10-30,11:15,Makindye,Central,Highway,Rainy,Night,High,Car,2,44,Female,15,No,Yes,Yes,Minor,3,2,Multiple,0.290777,32.525865
+498,2023-01-10,21:26,Bwaise,Makindye,Urban,Clear,Daylight,Medium,Car,2,63,Female,5,Yes,No,Yes,Fatal,0,1,Head Injury,0.374878,32.52674
+499,2023-09-14,1:26,Ntinda,Makindye,Highway,Clear,Daylight,Medium,Boda Boda,2,48,Female,5,Yes,No,No,Fatal,2,2,Fracture,0.356396,32.531861
+500,2023-05-20,17:12,Makindye,Rubaga,Highway,Rainy,Night,Low,Bus,2,54,Male,11,No,No,Yes,Fatal,4,2,Fracture,0.351322,32.615624
