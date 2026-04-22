@@ -1,1 +1,2 @@
 # Final_project_Stanley_Uganda_
+* Good sleep is a crucial part of overall health and can significantly impact individual well-being. Analyzing health and sleep data aims to explore how sleep patterns affect general health. By examining sleep quality and its relationship with health factors such as energy levels and mood, we can provide insights to help improve sleep quality and enhance overall health.
